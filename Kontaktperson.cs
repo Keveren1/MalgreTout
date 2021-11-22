@@ -22,7 +22,7 @@ namespace MalgreTout
 
         public override string ToString()
         {
-            return $"Id: {Id}, Person: {Person}, Tlf: {Tlf}, Mail: {Mail}";
+            return $"Id: {Id}\n Person: {Person}\n Tlf: {Tlf}, Mail: {Mail}";
         }
     }
 }
