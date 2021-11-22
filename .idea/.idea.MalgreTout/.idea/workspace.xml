@@ -5,7 +5,7 @@
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="Models" />
+    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637578246752</updated>
       <workItem from="1637578266072" duration="2895000" />
+      <workItem from="1637587520250" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
@@ -85,6 +86,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -95,6 +99,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
