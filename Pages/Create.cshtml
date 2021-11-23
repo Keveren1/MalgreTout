@@ -1,0 +1,46 @@
+﻿@page
+@using MalgreTout.Models @*namespace*@
+@model Create
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+<div class="container">
+    <h3>Tilføj kontaktperson</h3>
+    <hr />
+    <br />
+    <form method="post">
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Kontaktperson.Id"></label>
+                <input asp-for="Kontaktperson.Id" class="form-control" />
+                <span class="alert-danger" asp-validation-for="Kontaktperson.Id"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Kontaktperson.Person"></label>
+                <input asp-for="Kontaktperson.Person" class="form-control" />
+                <span class="alert-danger" asp-validation-for="Kontaktperson.Person"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Kontaktperson.TLF"></label>
+                <input asp-for="Kontaktperson.TLF" class="form-control" />
+                <span class="alert-danger" asp-validation-for="Kontaktperson.TLF"></span>
+            </div>
+        </div>
+ 
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Kontaktperson.Mail"></label>
+                <input asp-for="Kontaktperson.Mail" cl class="form-control" />
+                <span class="alert-danger" asp-validation-for="Kontaktperson.Mail"></span>
+            </div>
+        </div>
+        
+        <br />
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <a class="btn btn-default" href="/allKontaktperson">Cancel</a>
+    </form>
+</div>
