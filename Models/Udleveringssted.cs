@@ -13,12 +13,16 @@ namespace MalgreTout.Models
     public partial class Udleveringssted
     {
         [Key]
+
+        [Required(ErrorMessage = "Enter Id")]
         public int Id { get; set; }
-        [Required]
-        [StringLength(30)]
-        public string Name { get; set; }
-        [Required]
-        [StringLength(50)]
+        
+        [Required(ErrorMessage = "Enter Name")]
+        public string Virksomhed { get; set; }
+        
+        [Required(ErrorMessage = "Enter TLF")]
         public string Address { get; set; }
+        
+      
     }
 }
