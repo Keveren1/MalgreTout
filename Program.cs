@@ -16,8 +16,9 @@ namespace MalgreTout
             CreateHostBuilder(args).Build().Run();
         }
         //bla bla
-        //Heyhey
-
+        public static void Peter()
+        { }
+        //wtf peter haha
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
