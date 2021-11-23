@@ -5,12 +5,11 @@
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="">
+    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="Opdateret create så den gemmer i database">
+      <change afterPath="$PROJECT_DIR$/Models/ViewAll.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Malgretout_DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Malgretout_DataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Udleveringssted.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Udleveringssted.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/View.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/View.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/View.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/View.cshtml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637591830492</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Opdateret create så den gemmer i database">
+      <created>1637666580497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637666580497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +138,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Models" />
     <MESSAGE value="Oprettet create metode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oprettet create metode" />
+    <MESSAGE value="Opdateret create så den gemmer i database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opdateret create så den gemmer i database" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
