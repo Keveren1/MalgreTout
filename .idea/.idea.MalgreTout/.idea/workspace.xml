@@ -5,7 +5,13 @@
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="" />
+    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Malgretout_DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Malgretout_DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Udleveringssted.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Udleveringssted.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +23,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Delete" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/malthethomsen/Documents/GitHub/MalgreTout/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21GrOqSYYFtfhOumQSgVeWcWtNW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">

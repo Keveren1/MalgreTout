@@ -13,6 +13,14 @@ namespace MalgreTout.Pages
     {
         [BindProperty]
         public Kontaktperson Kontaktperson {get; set; }
+        public Udleveringssted Udleveringssted { get; set; }
+
+        Malgretout_DataContext _context;
+        public Create(Malgretout_DataContext malgretoutDataContext)
+        {
+            _context = malgretoutDataContext; 
+        }
+        
         
         public void OnGet()
         {
@@ -22,13 +30,22 @@ namespace MalgreTout.Pages
         public ActionResult OnPost()
         {
             var kontaktperson = Kontaktperson;
+            var udleveringssted = Udleveringssted; 
             
             if (ModelState.IsValid)
             {
-                return Page(); 
+                return Page(); // return page 
             }
 
-            return RedirectToPage("Overview"); 
+            Kontaktperson.Id = 0;                  
+            var result = _context.Add(kontaktperson); 
+            _context.SaveChanges(); // gemmer data i databasen 
+
+            Udleveringssted.Id = 0;                                               
+            var secondresult = _context.Add(udleveringssted);                           
+            _context.SaveChanges(); // gemmer data i databasen     
+            
+            return RedirectToPage("View");  // overview er ikke lavet endnu   
         }
     }
 }

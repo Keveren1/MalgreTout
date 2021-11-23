@@ -5,7 +5,7 @@
 <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
 <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
 <div class="container">
-    <h3>Tilføj kontaktperson</h3>
+    <h3>Opret</h3>
     <hr />
     <br />
     <form method="post">
@@ -25,9 +25,9 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                <label asp-for="Kontaktperson.TLF"></label>
-                <input asp-for="Kontaktperson.TLF" class="form-control" />
-                <span class="alert-danger" asp-validation-for="Kontaktperson.TLF"></span>
+                <label asp-for="Kontaktperson.Tlf"></label>
+                <input asp-for="Kontaktperson.Tlf" class="form-control" />
+                <span class="alert-danger" asp-validation-for="Kontaktperson.Tlf"></span>
             </div>
         </div>
  
@@ -38,7 +38,20 @@
                 <span class="alert-danger" asp-validation-for="Kontaktperson.Mail"></span>
             </div>
         </div>
-        
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Udleveringssted.Name"></label>
+                <input asp-for="Udleveringssted.Name" class="form-control" />
+                <span class="alert-danger" asp-validation-for="Udleveringssted.Name"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Udleveringssted.Adress"></label>
+                <input asp-for="Udleveringssted.Adress" class="form-control" />
+                <span class="alert-danger" asp-validation-for="Udleveringssted.Adress"></span>
+            </div>
+        </div>
         <br />
         <input type="submit" value="Save" class="btn btn-primary" />
         <a class="btn btn-default" href="/allKontaktperson">Cancel</a>

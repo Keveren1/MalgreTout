@@ -51,7 +51,7 @@ namespace MalgreTout.Models
 
                 entity.Property(e => e.Address).IsUnicode(false);
 
-                entity.Property(e => e.Name).IsUnicode(false);
+                entity.Property(e => e.Virksomhed).IsUnicode(false);
             });
 
             OnModelCreatingPartial(modelBuilder);

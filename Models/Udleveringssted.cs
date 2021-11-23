@@ -18,7 +18,7 @@ namespace MalgreTout.Models
         public int Id { get; set; }
         
         [Required(ErrorMessage = "Enter Name")]
-        public string Name { get; set; }
+        public string Virksomhed { get; set; }
         
         [Required(ErrorMessage = "Enter TLF")]
         public string Address { get; set; }
