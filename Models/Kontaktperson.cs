@@ -13,14 +13,19 @@ namespace MalgreTout.Models
     public partial class Kontaktperson
     {
         [Key]
+
+        [Required(ErrorMessage = "Enter Id")]
         public int Id { get; set; }
-        [Required]
-        [StringLength(30)]
+        
+        [Required(ErrorMessage = "Enter Name")]
         public string Person { get; set; }
-        [Column("TLF")]
-        public int Tlf { get; set; }
-        [Required]
-        [StringLength(30)]
+        
+        [Required(ErrorMessage = "Enter TLF")]
+        public string TLF { get; set; }
+        
+        [Required(ErrorMessage = "Enter Country Mail")]
         public string Mail { get; set; }
+        
+       
     }
 }

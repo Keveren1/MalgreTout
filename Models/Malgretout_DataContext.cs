@@ -39,6 +39,8 @@ namespace MalgreTout.Models
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
                 entity.Property(e => e.Mail).IsUnicode(false);
+                
+                entity.Property(e => e.TLF).ValueGeneratedNever();
 
                 entity.Property(e => e.Person).IsUnicode(false);
             });
