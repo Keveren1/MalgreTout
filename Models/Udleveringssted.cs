@@ -21,7 +21,7 @@ namespace MalgreTout.Models
         public string Virksomhed { get; set; }
         
         [Required(ErrorMessage = "Enter TLF")]
-        public string Address { get; set; }
+        public string Adresse { get; set; }
         
       
     }

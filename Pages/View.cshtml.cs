@@ -12,16 +12,30 @@ using System.Linq;
 
 namespace MalgreTout.Pages
 {
-    public class ViewModel : PageModel
+    public class View : PageModel
     {
-        private Malgretout_DataContext _context;
+        Malgretout_DataContext _context;
 
-        public ViewModel(Malgretout_DataContext malgretoutDataContext)
+        public View (Malgretout_DataContext malgretoutDataContext)
         {
             _context = malgretoutDataContext;
         }
+
+        public ActionResult OnGetDelete(int? id)
+        {
+            if (id != null)
+            {
+                var data = (from Kontaktperson in _context.Kontaktpeople
+                                        where Kontaktperson.Id == id
+                                        select Kontaktperson).SingleOrDefault();
+                _context.Remove(data);
+                _context.SaveChanges();
+            }
+
+            return RedirectToPage("View"); 
+        }
         
-        public List<Kontaktperson> KontaktpersonList { get; set; }
+        public List<Models.Kontaktperson> KontaktpersonList { get; set; }
         public void OnGet()
         {
             var data = (from kontaktpersonList in _context.Kontaktpeople 

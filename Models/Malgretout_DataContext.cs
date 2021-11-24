@@ -2,6 +2,11 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 #nullable disable
 
@@ -49,7 +54,7 @@ namespace MalgreTout.Models
             {
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.Address).IsUnicode(false);
+                entity.Property(e => e.Adresse).IsUnicode(false);
 
                 entity.Property(e => e.Virksomhed).IsUnicode(false);
             });
