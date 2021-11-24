@@ -25,17 +25,26 @@ namespace MalgreTout.Pages
         {
             if (id != null)
             {
-                var data = (from Kontaktperson in _context.Kontaktperson
-                                        where Kontaktperson.Id == id
-                                        select Kontaktperson).SingleOrDefault();
+                var data = (from kontaktperson in _context.Kontaktperson
+                                        where kontaktperson.Id == id
+                                        select kontaktperson).SingleOrDefault();
                 _context.Remove(data);
                 _context.SaveChanges();
             }
+            
+            /*if (id != null)
+            {
+                var data = (from udleveringssted in _context.Udleveringssted
+                    where udleveringssted.Id == id
+                    select udleveringssted).SingleOrDefault();
+                _context.Remove(data);
+                _context.SaveChanges();
+            }*/
 
-            return RedirectToPage("View"); 
+            return RedirectToPage("Create"); 
         }
         
-        public List<Models.Kontaktperson> KontaktpersonList { get; set; }
+        public List<Kontaktperson> KontaktpersonList { get; set; }
         public void OnGet()
         {
             var data = (from kontaktpersonList in _context.Kontaktperson 

@@ -18,10 +18,11 @@ namespace MalgreTout.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=malgretout.database.windows.net;Initial Catalog=malgretout_data;Persist Security Info=True;User ID=Malthe;Password=Zealand123;Trust Server Certificate=True;Command Timeout=300");
+                optionsBuilder.UseSqlServer("Data Source=malgretout.database.windows.net; Initial Catalog=malgretout_data;User ID=Malthe;Password=Zealand123; Integrated Security=False;Persist Security Info=False;;");
             }
         }
-
+        //"Data Source=malgretout.database.windows.net;Initial Catalog=malgretout_data;Persist Security Info=True;User ID=Malthe;Password=Zealand123;Trust Server Certificate=True;Command Timeout=300"
+        //Data Source=malgretout.database.windows.net; Initial Catalog=malgretout_data;User ID=Malthe; Integrated Security=SSPI;Persist Security Info=False;
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Kontaktperson>(entity =>

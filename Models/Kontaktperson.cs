@@ -9,12 +9,11 @@ namespace MalgreTout.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
-        [StringLength(30)]
+        [Required(ErrorMessage = "Indtast Navn")]
         public string Person { get; set; }
+        [Required(ErrorMessage = "Indtast Tlf")]
         public int TLF { get; set; }
-        [Required]
-        [StringLength(30)]
+        [Required(ErrorMessage = "Indtast Mail")]
         public string Mail { get; set; }
     }
 }

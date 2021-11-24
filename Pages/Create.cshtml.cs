@@ -27,6 +27,7 @@ namespace MalgreTout.Pages
         {
             
         }
+       
 
         public ActionResult OnPost()
         {
@@ -37,16 +38,18 @@ namespace MalgreTout.Pages
             {
                 return Page(); // return page 
             }
+            
+            
 
             Kontaktperson.Id = 0;                  
             var result = _Context.Add(kontaktperson); 
             _Context.SaveChanges(); // gemmer data i databasen 
 
-            Udleveringssted.Id = 0;                                               
+           // Udleveringssted.Id = 1;                                               
             var secondresult = _Context.Add(udleveringssted);                           
             _Context.SaveChanges(); // gemmer data i databasen     
             
-            return RedirectToPage("View");  // View er ikke lavet endnu   
+            return RedirectToPage("View");     
             
             
         }

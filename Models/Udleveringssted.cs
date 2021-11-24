@@ -9,11 +9,9 @@ namespace MalgreTout.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
-        [StringLength(90)]
+       [Required(ErrorMessage = "Indtast Navn")]
         public string Virksomhed { get; set; }
-        [Required]
-        [StringLength(90)]
+        [Required(ErrorMessage = "Indtast Adresse")]
         public string Adresse { get; set; }
     }
 }
