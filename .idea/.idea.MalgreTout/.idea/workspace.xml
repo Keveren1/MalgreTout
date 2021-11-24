@@ -5,13 +5,7 @@
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="En del ændringer">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Kontaktperson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Kontaktperson.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Malgretout_DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Malgretout_DataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Udleveringssted.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Udleveringssted.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml.cs" afterDir="false" />
-    </list>
+    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +16,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Create.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21GrOqSYYFtfhOumQSgVeWcWtNW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -81,7 +76,7 @@
       <updated>1637578246752</updated>
       <workItem from="1637578266072" duration="2895000" />
       <workItem from="1637587520250" duration="79000" />
-      <workItem from="1637765192996" duration="1725000" />
+      <workItem from="1637765192996" duration="1845000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
@@ -90,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637582098304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Små ændringer">
+      <created>1637767036312</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637767036312</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +117,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Models" />
+    <MESSAGE value="Små ændringer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Små ændringer" />
   </component>
 </project>
