@@ -25,7 +25,7 @@ namespace MalgreTout.Pages
         {
             if (id != null)
             {
-                var data = (from Kontaktperson in _context.Kontaktpeople
+                var data = (from Kontaktperson in _context.Kontaktperson
                                         where Kontaktperson.Id == id
                                         select Kontaktperson).SingleOrDefault();
                 _context.Remove(data);
@@ -38,7 +38,7 @@ namespace MalgreTout.Pages
         public List<Models.Kontaktperson> KontaktpersonList { get; set; }
         public void OnGet()
         {
-            var data = (from kontaktpersonList in _context.Kontaktpeople 
+            var data = (from kontaktpersonList in _context.Kontaktperson 
                                         select kontaktpersonList).ToList();
             KontaktpersonList = data;
         }
