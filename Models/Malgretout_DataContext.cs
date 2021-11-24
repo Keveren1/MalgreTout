@@ -14,9 +14,9 @@ namespace MalgreTout.Models
 {
     public partial class Malgretout_DataContext : DbContext
     {
-        public Malgretout_DataContext()
+        /*public Malgretout_DataContext()
         {
-        }
+        }*/
 
         public Malgretout_DataContext(DbContextOptions<Malgretout_DataContext> options)
             : base(options)

@@ -12,12 +12,12 @@ namespace MalgreTout.Pages
     public class Create : PageModel
     {
         
-        /*Malgretout_DataContext _Context;
+        Malgretout_DataContext _Context;
          public Create(Malgretout_DataContext malgretoutDataContext)
          {
              _Context = malgretoutDataContext; 
          }
-         */
+         
          
          [BindProperty]
          public Kontaktperson Kontaktperson {get; set; }
@@ -33,12 +33,12 @@ namespace MalgreTout.Pages
             var kontaktperson = Kontaktperson;
             var udleveringssted = Udleveringssted; 
             
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return Page(); // return page 
             }
 
-           /* Kontaktperson.Id = 0;                  
+            Kontaktperson.Id = 0;                  
             var result = _Context.Add(kontaktperson); 
             _Context.SaveChanges(); // gemmer data i databasen 
 
@@ -46,8 +46,7 @@ namespace MalgreTout.Pages
             var secondresult = _Context.Add(udleveringssted);                           
             _Context.SaveChanges(); // gemmer data i databasen     
             
-            */
-            return RedirectToPage("View");  // overview er ikke lavet endnu   
+            return RedirectToPage("View");  // View er ikke lavet endnu   
             
             
         }

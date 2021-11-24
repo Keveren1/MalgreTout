@@ -14,16 +14,16 @@ namespace MalgreTout.Models
     {
         [Key]
 
-        [Required(ErrorMessage = "Enter Id")]
+        [Required(ErrorMessage = "Indtast Id")]
         public int Id { get; set; }
         
-        [Required(ErrorMessage = "Enter Name")]
+        [Required(ErrorMessage = "Indtast Navn")]
         public string Person { get; set; }
         
-        [Required(ErrorMessage = "Enter TLF")]
-        public string TLF { get; set; }
+        [Required(ErrorMessage = "Indtast Tlf")]
+        public int TLF { get; set; }
         
-        [Required(ErrorMessage = "Enter Country Mail")]
+        [Required(ErrorMessage = "Indtast Mail")]
         public string Mail { get; set; }
         
        

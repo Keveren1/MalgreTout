@@ -6,13 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="En del ændringer">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Kontaktperson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Kontaktperson.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Malgretout_DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Malgretout_DataContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Udleveringssted.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Udleveringssted.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/View.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/View.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/View.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/View.cshtml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +21,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21GrOqSYYFtfhOumQSgVeWcWtNW" />
@@ -39,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MalgreTout">
@@ -77,13 +74,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="" />
+      <changelist id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="En del ændringer" />
       <created>1637578246752</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637578246752</updated>
       <workItem from="1637578266072" duration="2895000" />
       <workItem from="1637587520250" duration="79000" />
+      <workItem from="1637765192996" duration="1725000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>

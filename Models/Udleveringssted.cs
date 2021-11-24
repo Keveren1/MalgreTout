@@ -14,13 +14,13 @@ namespace MalgreTout.Models
     {
         [Key]
 
-        [Required(ErrorMessage = "Enter Id")]
+        [Required(ErrorMessage = "Indtast Id")]
         public int Id { get; set; }
         
-        [Required(ErrorMessage = "Enter Name")]
+        [Required(ErrorMessage = "Indtast Navn")]
         public string Virksomhed { get; set; }
         
-        [Required(ErrorMessage = "Enter TLF")]
+        [Required(ErrorMessage = "Indtast Adresse")]
         public string Adresse { get; set; }
         
       
