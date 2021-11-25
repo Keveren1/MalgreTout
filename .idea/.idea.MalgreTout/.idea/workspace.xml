@@ -5,12 +5,7 @@
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="Opdateret create så den gemmer i database">
-      <change afterPath="$PROJECT_DIR$/Models/ViewAll.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/View.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/View.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/View.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/View.cshtml.cs" afterDir="false" />
-    </list>
+    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637666580497</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sds">
+      <created>1637671913076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637671913077</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +141,8 @@
     <MESSAGE value="Models" />
     <MESSAGE value="Oprettet create metode" />
     <MESSAGE value="Opdateret create så den gemmer i database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opdateret create så den gemmer i database" />
+    <MESSAGE value="sds" />
+    <option name="LAST_COMMIT_MESSAGE" value="sds" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
