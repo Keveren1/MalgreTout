@@ -21,6 +21,12 @@ namespace MalgreTout.Models
                 optionsBuilder.UseSqlServer("Data Source=malgretout.database.windows.net; Initial Catalog=malgretout_data;User ID=Malthe;Password=Zealand123; Integrated Security=False;Persist Security Info=False;;");
             }
         }
+
+        internal object Entry(object kontaktperson)
+        {
+            throw new NotImplementedException();
+        }
+
         //"Data Source=malgretout.database.windows.net;Initial Catalog=malgretout_data;Persist Security Info=True;User ID=Malthe;Password=Zealand123;Trust Server Certificate=True;Command Timeout=300"
         //Data Source=malgretout.database.windows.net; Initial Catalog=malgretout_data;User ID=Malthe; Integrated Security=SSPI;Persist Security Info=False;
         protected override void OnModelCreating(ModelBuilder modelBuilder)
