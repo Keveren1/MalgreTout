@@ -41,7 +41,7 @@ namespace MalgreTout.Pages
             
             
 
-            Kontaktperson.Id = 0;                  
+            //Kontaktperson.Id = 0;                  
             var result = _Context.Add(kontaktperson); 
             _Context.SaveChanges(); // gemmer data i databasen 
 
@@ -49,7 +49,7 @@ namespace MalgreTout.Pages
             var secondresult = _Context.Add(udleveringssted);                           
             _Context.SaveChanges(); // gemmer data i databasen     
             
-            return RedirectToPage("View");     
+            return RedirectToPage("AllKontaktperson");     
             
             
         }

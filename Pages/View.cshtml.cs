@@ -5,10 +5,6 @@ using System.Threading.Tasks;
 using MalgreTout.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace MalgreTout.Pages
 {
@@ -21,17 +17,18 @@ namespace MalgreTout.Pages
             _context = malgretoutDataContext;
         }
 
-        public ActionResult OnGetDelete(int? id)
+        public IActionResult OnGetDelete(int? id)
         {
             if (id != null)
             {
                 var data = (from kontaktperson in _context.Kontaktperson
-                                        where kontaktperson.Id == id
-                                        select kontaktperson).SingleOrDefault();
-                _context.Remove(data);
-                _context.SaveChanges();
+                            where kontaktperson.Id == id
+                            select kontaktperson).SingleOrDefault();
+               // _context.Remove(data);
+                //_context.SaveChanges();
+             
             }
-            
+
             /*if (id != null)
             {
                 var data = (from udleveringssted in _context.Udleveringssted
@@ -41,9 +38,16 @@ namespace MalgreTout.Pages
                 _context.SaveChanges();
             }*/
 
-            return RedirectToPage("Create"); 
+            //return RedirectToPage("Create"); 
+            return Page();
         }
-        
+        public IActionResult OnPost(Kontaktperson kontaktperson)
+        {
+            _context.Remove(kontaktperson);
+            _context.SaveChanges();
+            return RedirectToPage("Create");
+        }
+
         public List<Kontaktperson> KontaktpersonList { get; set; }
         public void OnGet()
         {
