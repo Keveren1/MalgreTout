@@ -27,5 +27,29 @@ namespace MalgreTout.Pages
 
             KontaktpersonList = data;
         }
+
+        public ActionResult OnGetDelete(int? id)
+        {
+            if (id != null)
+            {
+                var data = (from kontaktperson in _Context.Kontaktperson
+                            where kontaktperson.Id == id
+                            select kontaktperson).SingleOrDefault();
+                _Context.Remove(data);
+                _Context.SaveChanges();
+            }
+
+            /*if (id != null)
+            {
+                var data = (from udleveringssted in _context.Udleveringssted
+                    where udleveringssted.Id == id
+                    select udleveringssted).SingleOrDefault();
+                _context.Remove(data);
+                _context.SaveChanges();
+            }*/
+
+            return RedirectToPage("Create");
+        }
     }
 }
+
