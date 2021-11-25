@@ -1,0 +1,31 @@
+using System.Collections.Generic;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+using MalgreTout.Models;
+using MalgreTout.Pages;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
+namespace MalgreTout.Pages
+{
+    public class AllKontaktpersonModel : PageModel
+    {
+
+        Malgretout_DataContext _Context;
+        public AllKontaktpersonModel(Malgretout_DataContext Malgretout_databasecontext)
+        {
+            _Context = Malgretout_databasecontext;
+        }
+
+        public List<Kontaktperson> KontaktpersonList { get; set; }
+        public void OnGet()
+        {
+            var data = (from kontaktpersonlist in _Context.Kontaktpeople
+                        select kontaktpersonlist).ToList();
+
+            KontaktpersonList = data;
+        }
+    }
+}
