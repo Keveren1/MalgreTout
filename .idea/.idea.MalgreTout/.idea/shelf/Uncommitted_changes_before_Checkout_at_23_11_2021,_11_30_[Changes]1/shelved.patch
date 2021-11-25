@@ -1,0 +1,60 @@
+Index: Pages/Create.cshtml.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Threading.Tasks;\nusing Microsoft.AspNetCore.Mvc;\nusing Microsoft.AspNetCore.Mvc.RazorPages;\nusing MalgreTout.Models;\nusing Microsoft.AspNetCore.Mvc.RazorPages;\n\nnamespace MalgreTout.Pages\n{\n    public class Create : PageModel\n    {\n        [BindProperty]\n        public Kontaktperson Kontaktperson {get; set; }\n        \n        public void OnGet()\n        {\n            \n        }\n\n        public ActionResult OnPost()\n        {\n            var kontaktperson = Kontaktperson;\n            \n            if (ModelState.IsValid)\n            {\n                return Page(); \n            }\n\n            return RedirectToPage(\"Overview\"); \n        }\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pages/Create.cshtml.cs b/Pages/Create.cshtml.cs
+--- a/Pages/Create.cshtml.cs	
++++ b/Pages/Create.cshtml.cs	
+@@ -13,6 +13,8 @@
+     {
+         [BindProperty]
+         public Kontaktperson Kontaktperson {get; set; }
++        public Udleveringssted Udleveringssted { get; set; }
++        
+         
+         public void OnGet()
+         {
+Index: Pages/Create.cshtml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@page\n@using MalgreTout.Models @*namespace*@\n@model Create\n<script src=\"~/lib/jquery/dist/jquery.js\"></script>\n<script src=\"~/lib/jquery-validation/dist/jquery.validate.js\"></script>\n<script src=\"~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js\"></script>\n<div class=\"container\">\n    <h3>Tilføj kontaktperson</h3>\n    <hr />\n    <br />\n    <form method=\"post\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <label asp-for=\"Kontaktperson.Id\"></label>\n                <input asp-for=\"Kontaktperson.Id\" class=\"form-control\" />\n                <span class=\"alert-danger\" asp-validation-for=\"Kontaktperson.Id\"></span>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <label asp-for=\"Kontaktperson.Person\"></label>\n                <input asp-for=\"Kontaktperson.Person\" class=\"form-control\" />\n                <span class=\"alert-danger\" asp-validation-for=\"Kontaktperson.Person\"></span>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <label asp-for=\"Kontaktperson.TLF\"></label>\n                <input asp-for=\"Kontaktperson.TLF\" class=\"form-control\" />\n                <span class=\"alert-danger\" asp-validation-for=\"Kontaktperson.TLF\"></span>\n            </div>\n        </div>\n \n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <label asp-for=\"Kontaktperson.Mail\"></label>\n                <input asp-for=\"Kontaktperson.Mail\" cl class=\"form-control\" />\n                <span class=\"alert-danger\" asp-validation-for=\"Kontaktperson.Mail\"></span>\n            </div>\n        </div>\n        \n        <br />\n        <input type=\"submit\" value=\"Save\" class=\"btn btn-primary\" />\n        <a class=\"btn btn-default\" href=\"/allKontaktperson\">Cancel</a>\n    </form>\n</div>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pages/Create.cshtml b/Pages/Create.cshtml
+--- a/Pages/Create.cshtml	
++++ b/Pages/Create.cshtml	
+@@ -5,7 +5,7 @@
+ <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+ <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+ <div class="container">
+-    <h3>Tilføj kontaktperson</h3>
++    <h3>Opret</h3>
+     <hr />
+     <br />
+     <form method="post">
+@@ -38,7 +38,20 @@
+                 <span class="alert-danger" asp-validation-for="Kontaktperson.Mail"></span>
+             </div>
+         </div>
+-        
++        <div class="row">
++            <div class="col-md-4">
++                <label asp-for="Udleveringssted.Name"></label>
++                <input asp-for="Udleveringssted.Name" class="form-control" />
++                <span class="alert-danger" asp-validation-for="Udleveringssted.Name"></span>
++            </div>
++        </div>
++        <div class="row">
++            <div class="col-md-4">
++                <label asp-for="Udleveringssted.Address"></label>
++                <input asp-for="Udleveringssted.Address" class="form-control" />
++                <span class="alert-danger" asp-validation-for="Udleveringssted.Address"></span>
++            </div>
++        </div>
+         <br />
+         <input type="submit" value="Save" class="btn btn-primary" />
+         <a class="btn btn-default" href="/allKontaktperson">Cancel</a>
