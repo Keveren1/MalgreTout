@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MalgreTout.Models;
@@ -19,7 +18,6 @@ namespace MalgreTout.Pages
             _Context = Malgretout_databaseContext;
         }
         [BindProperty]
-
         public Kontaktperson Kontaktperson { get; set; }
         //public object Kontaktpeople { get; private set; }
 
@@ -33,27 +31,7 @@ namespace MalgreTout.Pages
                 Kontaktperson = data;
 
             }
-
         }
-
-        //public ActionResult OnPost()
-        //{
-        //    var Kontaktperson = kontaktperson;
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return Page();
-        //    }
-
-        //    _Context.Entry(kontaktperson).Property(x => x.Person).IsModified = true;
-        //    _Context.Entry(kontaktperson).Property(x => x.TLF).IsModified = true;
-        //    _Context.Entry(kontaktperson).Property(x => x.Mail).IsModified = true;
-        //    _Context.SaveChanges();
-        //    return RedirectToPage("AllKontaktperson");
-
-
-        //}
-
-
         public ActionResult OnPost()
         {
             var kontaktperson = Kontaktperson;
@@ -62,16 +40,11 @@ namespace MalgreTout.Pages
                 return Page();
             }
 
-            _Context.Entry(kontaktperson).Property(x => x.Name).IsModified = true;
-            _Context.Entry(kontaktperson).Property(x => x.Phoneno).IsModified = true;
-            _Context.Entry(kontaktperson).Property(x => x.Address).IsModified = true;
-            _Context.Entry(kontaktperson).Property(x => x.City).IsModified = true;
-            _Context.Entry(kontaktperson).Property(x => x.Country).IsModified = true;
+            _Context.Entry(kontaktperson).Property(x => x.Person).IsModified = true;
+            _Context.Entry(kontaktperson).Property(x => x.TLF).IsModified = true;
+            _Context.Entry(kontaktperson).Property(x => x.Mail).IsModified = true;
             _Context.SaveChanges();
-            return RedirectToPage("AllCustomer");
+            return RedirectToPage("AllKontaktperson");
         }
-
-
-
     }
 }
