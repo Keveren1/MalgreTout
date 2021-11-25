@@ -5,7 +5,9 @@
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="" />
+    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Delete" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,6 +84,7 @@
       <workItem from="1637587520250" duration="79000" />
       <workItem from="1637588119718" duration="3717000" />
       <workItem from="1637591954104" duration="48000" />
+      <workItem from="1637828999618" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
@@ -97,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637591830492</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Opdateret create så den gemmer i database">
+      <created>1637666580497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637666580497</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sds">
+      <created>1637671913076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637671913077</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +140,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Models" />
     <MESSAGE value="Oprettet create metode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oprettet create metode" />
+    <MESSAGE value="Opdateret create så den gemmer i database" />
+    <MESSAGE value="sds" />
+    <option name="LAST_COMMIT_MESSAGE" value="sds" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
