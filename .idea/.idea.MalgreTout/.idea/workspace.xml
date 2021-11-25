@@ -23,10 +23,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6f7983df5846436f8e9cb779867785c7174178/9/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6f7983df5846436f8e9cb779867785c7174178/9/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0d28c79367e043b1877fd1496fa71f9965790/2D/PageActionInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d1e418f5099b401284f542040e6b92d018388/5/DiagnosticListener.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21GrOqSYYFtfhOumQSgVeWcWtNW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -92,6 +91,7 @@
       <workItem from="1637782508121" duration="7915000" />
       <workItem from="1637790728096" duration="12000" />
       <workItem from="1637848676465" duration="1251000" />
+      <workItem from="1637852730027" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
