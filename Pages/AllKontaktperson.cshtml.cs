@@ -7,6 +7,12 @@ using MalgreTout.Pages;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.IO;
+using System.Data;
+using System.Linq;
+using ClosedXML.Excel;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace MalgreTout.Pages
 {
@@ -20,6 +26,7 @@ namespace MalgreTout.Pages
         }
 
         public List<Kontaktperson> KontaktpersonList { get; set; }
+
         public void OnGet()
         {
             var data = (from kontaktpersonlist in _Context.Kontaktperson
@@ -49,6 +56,35 @@ namespace MalgreTout.Pages
             }*/
 
             return RedirectToPage("AllKontaktperson");
+        }
+
+
+        //Export til Excel metode
+        public FileResult OnPostExport()
+        {
+            DataTable dt = new DataTable("Grid");
+            dt.Columns.AddRange(new DataColumn[4] { new DataColumn("Id"),
+                                    new DataColumn("Person"),
+                                    new DataColumn("TLF"),
+                                    new DataColumn("Mail") });
+
+            var kontaktperson = from Kontaktperson in this._Context.Kontaktperson.Take(10)
+                            select Kontaktperson;
+
+            foreach (var Kontaktperson in kontaktperson)
+            {
+                dt.Rows.Add(Kontaktperson.Id, Kontaktperson.Person, Kontaktperson.TLF, Kontaktperson.Mail);
+            }
+
+            using (XLWorkbook wb = new XLWorkbook())
+            {
+                wb.Worksheets.Add(dt);
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    wb.SaveAs(stream);
+                    return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Data.xlsx");
+                }
+            }
         }
     }
 }
