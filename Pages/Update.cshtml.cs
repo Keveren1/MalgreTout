@@ -29,8 +29,7 @@ namespace MalgreTout.Pages
                 var data = (from kontaktperson in _Context.Kontaktperson
                             where kontaktperson.Id == id
                             select kontaktperson).SingleOrDefault();
-                            Kontaktperson = data;
-                            
+                            Kontaktperson = data;     
             }
         }
     }
