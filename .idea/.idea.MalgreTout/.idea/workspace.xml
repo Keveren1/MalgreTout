@@ -5,13 +5,7 @@
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_11_2021__11_30__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_11_2021__11_30__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_11_2021__11_30__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_11_2021__11_30__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/AllKontaktperson.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/AllKontaktperson.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" afterDir="false" />
-    </list>
+    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,9 +23,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6f7983df5846436f8e9cb779867785c7174178/9/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6f7983df5846436f8e9cb779867785c7174178/9/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0d28c79367e043b1877fd1496fa71f9965790/2D/PageActionInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d1e418f5099b401284f542040e6b92d018388/5/DiagnosticListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21GrOqSYYFtfhOumQSgVeWcWtNW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -96,7 +91,7 @@
       <workItem from="1637765192996" duration="1845000" />
       <workItem from="1637782508121" duration="7915000" />
       <workItem from="1637790728096" duration="12000" />
-      <workItem from="1637848676465" duration="977000" />
+      <workItem from="1637848676465" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
@@ -119,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637790674395</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Små rettelser">
+      <created>1637849852215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637849852215</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +148,7 @@
     <MESSAGE value="Models" />
     <MESSAGE value="Små ændringer" />
     <MESSAGE value="Fået view og create til at virke" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fået view og create til at virke" />
+    <MESSAGE value="Små rettelser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Små rettelser" />
   </component>
 </project>
