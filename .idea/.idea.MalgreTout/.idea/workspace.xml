@@ -5,7 +5,13 @@
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="" />
+    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_11_2021__11_30__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_11_2021__11_30__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_11_2021__11_30__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_11_2021__11_30__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/AllKontaktperson.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/AllKontaktperson.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +96,7 @@
       <workItem from="1637765192996" duration="1845000" />
       <workItem from="1637782508121" duration="7915000" />
       <workItem from="1637790728096" duration="12000" />
+      <workItem from="1637848676465" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>

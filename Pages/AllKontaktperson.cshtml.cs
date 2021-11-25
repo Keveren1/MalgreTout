@@ -48,7 +48,7 @@ namespace MalgreTout.Pages
                 _context.SaveChanges();
             }*/
 
-            return RedirectToPage("Create");
+            return RedirectToPage("AllKontaktperson");
         }
     }
 }
