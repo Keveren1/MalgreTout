@@ -1,0 +1,39 @@
+﻿@page "{id:int}"
+@using MalgreTout.Models @*namespace*@
+@model UpdateModel
+<div class="container">
+    <h3>Update Kontaktperson</h3>
+    <hr />
+    <br />
+    <form method="post">
+        <input asp-for="Kontaktperson.Id" type="hidden" />
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Kontaktperson.Id"></label>
+                <input asp-for="Kontaktperson.Id" class="form-control" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Kontaktperson.Person"></label>
+                <input asp-for="Kontaktperson.Person" class="form-control" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Kontaktperson.TLF"></label>
+                <input asp-for="Kontaktperson.TLF" class="form-control" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Kontaktperson.Mail"></label>
+                <input asp-for="Kontaktperson.Mail" cl class="form-control" />
+            </div>
+        </div>
+        <br />
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <a class="btn btn-default" href="/allKontaktperson">Cancel</a>
+    </form>
+</div>
