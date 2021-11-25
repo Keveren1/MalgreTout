@@ -11,41 +11,47 @@ namespace MalgreTout.Pages
 {
     public class Create : PageModel
     {
-        [BindProperty]
-        public Kontaktperson Kontaktperson {get; set; }
-        public Udleveringssted Udleveringssted { get; set; }
-
-        Malgretout_DataContext _context;
-        public Create(Malgretout_DataContext malgretoutDataContext)
-        {
-            _context = malgretoutDataContext; 
-        }
         
+        Malgretout_DataContext _Context;
+         public Create(Malgretout_DataContext malgretoutDataContext)
+         {
+             _Context = malgretoutDataContext; 
+         }
+         
+         
+         [BindProperty]
+         public Kontaktperson Kontaktperson {get; set; }
+         public Udleveringssted Udleveringssted { get; set; }
         
         public void OnGet()
         {
             
         }
+       
 
         public ActionResult OnPost()
         {
             var kontaktperson = Kontaktperson;
             var udleveringssted = Udleveringssted; 
             
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return Page(); // return page 
             }
+            
+            
 
             Kontaktperson.Id = 0;                  
-            var result = _context.Add(kontaktperson); 
-            _context.SaveChanges(); // gemmer data i databasen 
+            var result = _Context.Add(kontaktperson); 
+            _Context.SaveChanges(); // gemmer data i databasen 
 
-            Udleveringssted.Id = 0;                                               
-            var secondresult = _context.Add(udleveringssted);                           
-            _context.SaveChanges(); // gemmer data i databasen     
+           // Udleveringssted.Id = 1;                                               
+            var secondresult = _Context.Add(udleveringssted);                           
+            _Context.SaveChanges(); // gemmer data i databasen     
             
-            return RedirectToPage("View");  // overview er ikke lavet endnu   
+            return RedirectToPage("View");     
+            
+            
         }
     }
 }

@@ -10,11 +10,7 @@
     <br />
     <form method="post">
         <div class="row">
-            <div class="col-md-4">
-                <label asp-for="Kontaktperson.Id"></label>
-                <input asp-for="Kontaktperson.Id" class="form-control" />
-                <span class="alert-danger" asp-validation-for="Kontaktperson.Id"></span>
-            </div>
+            
         </div>
         <div class="row">
             <div class="col-md-4">
@@ -25,9 +21,9 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                <label asp-for="Kontaktperson.Tlf"></label>
-                <input asp-for="Kontaktperson.Tlf" class="form-control" />
-                <span class="alert-danger" asp-validation-for="Kontaktperson.Tlf"></span>
+                <label asp-for="Kontaktperson.TLF"></label>
+                <input asp-for="Kontaktperson.TLF" class="form-control" />
+                <span class="alert-danger" asp-validation-for="Kontaktperson.TLF"></span>
             </div>
         </div>
  
@@ -39,19 +35,19 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
-                <label asp-for="Udleveringssted.Name"></label>
-                <input asp-for="Udleveringssted.Name" class="form-control" />
-                <span class="alert-danger" asp-validation-for="Udleveringssted.Name"></span>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <label asp-for="Udleveringssted.Adress"></label>
-                <input asp-for="Udleveringssted.Adress" class="form-control" />
-                <span class="alert-danger" asp-validation-for="Udleveringssted.Adress"></span>
-            </div>
-        </div>
+                   <div class="col-md-4">
+                       <label asp-for="Udleveringssted.Virksomhed"></label>
+                       <input asp-for="Udleveringssted.Virksomhed" class="form-control" />
+                       <span class="alert-danger" asp-validation-for="Udleveringssted.Virksomhed"></span>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-md-4">
+                       <label asp-for="Udleveringssted.Adresse"></label>
+                       <input asp-for="Udleveringssted.Adresse" class="form-control" />
+                       <span class="alert-danger" asp-validation-for="Udleveringssted.Adresse"></span>
+                   </div>
+               </div>
         <br />
         <input type="submit" value="Save" class="btn btn-primary" />
         <a class="btn btn-default" href="/allKontaktperson">Cancel</a>
