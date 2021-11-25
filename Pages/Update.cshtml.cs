@@ -26,7 +26,7 @@ namespace MalgreTout.Pages
         {
             if (id != null)
             {
-                var data = (from kontaktperson in _Context.Kontaktpeople
+                var data = (from kontaktperson in _Context.Kontaktperson
                             where kontaktperson.Id == id
                             select kontaktperson).SingleOrDefault();
                             Kontaktperson = data;

@@ -22,7 +22,7 @@ namespace MalgreTout.Pages
         public List<Kontaktperson> KontaktpersonList { get; set; }
         public void OnGet()
         {
-            var data = (from kontaktpersonlist in _Context.Kontaktpeople
+            var data = (from kontaktpersonlist in _Context.Kontaktperson
                         select kontaktpersonlist).ToList();
 
             KontaktpersonList = data;
