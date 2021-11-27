@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MalgreTout">
@@ -92,6 +92,7 @@
       <workItem from="1637790728096" duration="12000" />
       <workItem from="1637848676465" duration="1251000" />
       <workItem from="1637852730027" duration="613000" />
+      <workItem from="1638037075599" duration="456000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
