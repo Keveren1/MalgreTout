@@ -36,7 +36,8 @@ namespace MalgreTout.Models
 
             modelBuilder.Entity<Kontaktperson>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
+                //Database er sat til AUTO Increment (Id IDENTITY 1,1) derfor har jeg udkommenteret denne linje da vi ikke skal tilføje Id. 
+               // entity.Property(e => e.Id).ValueGeneratedNever();
 
                 entity.Property(e => e.Mail).IsUnicode(false);
 
@@ -47,7 +48,7 @@ namespace MalgreTout.Models
 
             modelBuilder.Entity<Udleveringssted>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
+               // entity.Property(e => e.Id).ValueGeneratedNever();
 
                 // entity.Property(e => e.Address).IsUnicode(false);
 
