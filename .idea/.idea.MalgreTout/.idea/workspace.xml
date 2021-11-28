@@ -5,10 +5,7 @@
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="DONT PUSH ANY MORE!">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Update.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Update.cshtml" afterDir="false" />
-    </list>
+    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="DONT PUSH ANY MORE!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +86,7 @@
       <workItem from="1637588119718" duration="3717000" />
       <workItem from="1637591954104" duration="48000" />
       <workItem from="1637828999618" duration="372000" />
-      <workItem from="1637832313133" duration="780000" />
+      <workItem from="1637832313133" duration="1182000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
