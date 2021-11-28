@@ -4,8 +4,12 @@
     <projectFile profileName="IIS Express">MalgreTout.csproj</projectFile>
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f36f127a569d12eb918e1ac1f919bb4082f7cfb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58c63175ecfeb689e28f2fe60758e903fa4a1cbb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65bdc0107faae77ad82cab604fabf8dbc5796d6f" beforeDir="false" />
@@ -28,6 +32,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="21GrOqSYYFtfhOumQSgVeWcWtNW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,6 +51,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -107,6 +118,12 @@
       <workItem from="1638129367501" duration="53000" />
       <workItem from="1638129501438" duration="130000" />
       <workItem from="1638129682846" duration="64000" />
+      <workItem from="1638130450282" duration="40000" />
+      <workItem from="1638130532154" duration="62000" />
+      <workItem from="1638130766180" duration="730000" />
+      <workItem from="1638133402910" duration="221000" />
+      <workItem from="1638133654507" duration="298000" />
+      <workItem from="1638133975882" duration="808000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
@@ -169,7 +186,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
