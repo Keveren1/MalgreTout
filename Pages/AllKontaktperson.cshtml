@@ -1,11 +1,12 @@
 ﻿@page
 @using MalgreTout.Models
+
 @model AllKontaktpersonModel
 
 <h2>Index</h2>
 
 <p>
-    <a asp-page="Kontaktperson">Create New Kontaktperson</a>
+    <a asp-page="Create">Opret ny</a>
 </p>
 <table class="table">
     <thead>
@@ -51,3 +52,9 @@
         }
     </tbody>
 </table>
+<br />
+<br />
+<form method="post">
+    <input type="submit" value="Export til Excel" asp-page-handler="Export" />
+</form>
+    

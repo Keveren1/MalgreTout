@@ -1,19 +1,43 @@
 ﻿@page
+@using MalgreTout.Models
 @model MalgreTout.Pages.Test
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Index";
 }
 
-<!DOCTYPE html>
+<h1>Index</h1>
 
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-<div>
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form>
+    <p>
+        Title: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<th>
+    @Html.DisplayName("Id")
+</th>
+<th>
+    @Html.DisplayName("Person")
+</th>
+<th>
+    @Html.DisplayName("TLF")
+</th>
+<th>
+    @Html.DisplayName("Mail")
+</th>
+
+<td>
+    @Html.DisplayNameFor(Model => Model.Kontaktperson[0].Person)
+</td>
+
+<tbody>
     
-</div>
-</body>
-</html>
+            
+    }
+</tbody>

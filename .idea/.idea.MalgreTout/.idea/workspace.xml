@@ -5,25 +5,33 @@
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="DONT PUSH ANY MORE!" />
+    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="ads">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="master" />
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Delete" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/malthethomsen/Documents/GitHub/MalgreTout/Pages/AllKontaktperson.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6f7983df5846436f8e9cb779867785c7174178/9/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0d28c79367e043b1877fd1496fa71f9965790/2D/PageActionInvoker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/AllKontaktperson.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d1e418f5099b401284f542040e6b92d018388/5/DiagnosticListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21GrOqSYYFtfhOumQSgVeWcWtNW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -35,10 +43,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="ReSpellerSettingsId" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MalgreTout">
@@ -76,17 +87,21 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="29ce01ac-c675-45b4-8416-405dd0d87075" name="Changes" comment="" />
+      <changelist id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="En del ændringer" />
       <created>1637578246752</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637578246752</updated>
       <workItem from="1637578266072" duration="2895000" />
       <workItem from="1637587520250" duration="79000" />
-      <workItem from="1637588119718" duration="3717000" />
-      <workItem from="1637591954104" duration="48000" />
-      <workItem from="1637828999618" duration="372000" />
-      <workItem from="1637832313133" duration="1182000" />
+      <workItem from="1637765192996" duration="1845000" />
+      <workItem from="1637782508121" duration="7915000" />
+      <workItem from="1637790728096" duration="12000" />
+      <workItem from="1637848676465" duration="1251000" />
+      <workItem from="1637852730027" duration="613000" />
+      <workItem from="1638037075599" duration="456000" />
+      <workItem from="1638037650878" duration="3559000" />
+      <workItem from="1638041270101" duration="6085000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
@@ -95,35 +110,42 @@
       <option name="project" value="LOCAL" />
       <updated>1637582098304</updated>
     </task>
-    <task id="LOCAL-00002" summary="Oprettet create metode">
-      <created>1637591830492</created>
+    <task id="LOCAL-00002" summary="Små ændringer">
+      <created>1637767036312</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1637591830492</updated>
+      <updated>1637767036312</updated>
     </task>
-    <task id="LOCAL-00003" summary="Opdateret create så den gemmer i database">
-      <created>1637666580497</created>
+    <task id="LOCAL-00003" summary="Fået view og create til at virke">
+      <created>1637790674395</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1637666580497</updated>
+      <updated>1637790674395</updated>
     </task>
-    <task id="LOCAL-00004" summary="sds">
-      <created>1637671913076</created>
+    <task id="LOCAL-00004" summary="Små rettelser">
+      <created>1637849852215</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1637671913077</updated>
+      <updated>1637849852215</updated>
     </task>
-    <task id="LOCAL-00005" summary="DONT PUSH ANY MORE!">
-      <created>1637832554033</created>
+    <task id="LOCAL-00005" summary="test">
+      <created>1638041199751</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1637832554033</updated>
+      <updated>1638041199751</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tt">
+      <created>1638045868126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638045868126</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,14 +170,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Models" />
-    <MESSAGE value="Oprettet create metode" />
-    <MESSAGE value="Opdateret create så den gemmer i database" />
-    <MESSAGE value="sds" />
-    <MESSAGE value="DONT PUSH ANY MORE!" />
-    <option name="LAST_COMMIT_MESSAGE" value="DONT PUSH ANY MORE!" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="Små ændringer" />
+    <MESSAGE value="Fået view og create til at virke" />
+    <MESSAGE value="Små rettelser" />
+    <MESSAGE value="test" />
+    <MESSAGE value="tt" />
+    <option name="LAST_COMMIT_MESSAGE" value="tt" />
   </component>
 </project>
