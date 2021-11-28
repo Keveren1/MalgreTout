@@ -1,0 +1,7 @@
+
+–csharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(ÌëÓÇ
+8csharpsquid:S2933"Make '_Context' 'readonly'.(ª¶¬ù
+Ucsharpsquid:S1481#"3Remove the unused local variable 'udleveringssted'.(«Ãïäùÿÿÿÿ
+Fcsharpsquid:S1481-"*Remove the unused local variable 'result'.(ò³F
+;csharpsquid:S125,"Remove this commented out code.(ÈÍÜú
+;csharpsquid:S1250"Remove this commented out code.(ïÖß÷

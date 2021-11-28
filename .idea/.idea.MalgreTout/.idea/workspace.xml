@@ -5,7 +5,8 @@
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="ads">
+    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,15 +25,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6f7983df5846436f8e9cb779867785c7174178/9/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0d28c79367e043b1877fd1496fa71f9965790/2D/PageActionInvoker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/AllKontaktperson.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d1e418f5099b401284f542040e6b92d018388/5/DiagnosticListener.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="ProjectId" id="21GrOqSYYFtfhOumQSgVeWcWtNW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MalgreTout">
@@ -102,6 +94,10 @@
       <workItem from="1638037075599" duration="456000" />
       <workItem from="1638037650878" duration="3559000" />
       <workItem from="1638041270101" duration="6085000" />
+      <workItem from="1638126256969" duration="633000" />
+      <workItem from="1638126961876" duration="431000" />
+      <workItem from="1638127420294" duration="124000" />
+      <workItem from="1638127566195" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
