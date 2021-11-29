@@ -9,9 +9,11 @@ namespace MalgreTout.Models
     {
         [Key]
         public int Id { get; set; }
-       [Required(ErrorMessage = "Indtast Navn")]
+       [Required]
+       [StringLength(25, ErrorMessage = "Navnet på virksomheden må maks indeholde 25 tegn")]
         public string Virksomhed { get; set; }
-        [Required(ErrorMessage = "Indtast Adresse")]
+        [Required]
+        [StringLength(25, ErrorMessage = "Adressen må maks indeholde 50 tegn")]
         public string Adresse { get; set; }
     }
 }
