@@ -72,7 +72,7 @@ namespace MalgreTout.Pages
             _Context.Entry(postnumre).Property(x => x.Bynavn).IsModified = true;
             _Context.SaveChanges();
             
-            return RedirectToPage("AllKontaktperson");
+            return RedirectToPage("ViewAll");
         }
     }
 }

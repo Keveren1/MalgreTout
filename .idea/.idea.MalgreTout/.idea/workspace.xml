@@ -8,7 +8,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="" />
+    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MalgreTout.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MalgreTout.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/AllKontaktperson.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ViewAll.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/AllKontaktperson.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ViewAll.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Update.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Update.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Update.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Update.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/View.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Test.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/View.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Test.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/DBServices/DBKontaktService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/site.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,6 +156,7 @@
       <workItem from="1638142915329" duration="5291000" />
       <workItem from="1638192284193" duration="25518000" />
       <workItem from="1638220069388" duration="4000" />
+      <workItem from="1638224005231" duration="3615000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>

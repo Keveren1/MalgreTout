@@ -16,19 +16,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MalgreTout.Pages
 {
-    public class AllKontaktpersonModel : PageModel
+    public class ViewAllModel : PageModel
     {
         
         //Dependency Injection
         Malgretout_DataContext _Context;
-        public AllKontaktpersonModel(Malgretout_DataContext Malgretout_databasecontext)
+        public ViewAllModel(Malgretout_DataContext Malgretout_databasecontext)
         {
             _Context = Malgretout_databasecontext;
         }
-
-
-
-       
         
         public List<Kontaktperson> KontaktpersonList { get; set; }
         public List<Udleveringssted> UdleveringsstedList { get; set; }
@@ -79,7 +75,7 @@ namespace MalgreTout.Pages
                 _Context.SaveChanges();
             }
 
-            return RedirectToPage("AllKontaktperson");
+            return RedirectToPage("ViewAll");
         }
 
 

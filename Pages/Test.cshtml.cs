@@ -11,11 +11,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MalgreTout.Pages
 {
-    public class View : PageModel
+    public class Test : PageModel
     {
         private readonly Malgretout_DataContext _Context;
 
-        public View(Malgretout_DataContext malgretoutDataContext)
+        public Test(Malgretout_DataContext malgretoutDataContext)
         {
             _Context = malgretoutDataContext;
         }
@@ -95,14 +95,14 @@ namespace MalgreTout.Pages
                 KontaktpersonList = data;
                 
                 
-                var View = from m in _Context.Kontaktperson
+                var Test = from m in _Context.Kontaktperson
                     select m;
                 if (!string.IsNullOrEmpty(SearchString))
                 {
-                    View = View.Where(s => s.Person.Contains(SearchString));
+                    Test = Test.Where(s => s.Person.Contains(SearchString));
                 }
 
-                Kontaktperson = await View.ToListAsync();
+                Kontaktperson = await Test.ToListAsync();
             }
             
             

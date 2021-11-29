@@ -54,7 +54,7 @@ namespace MalgreTout.Pages
             var thridresult = _Context.Add(postnumre);                           
             _Context.SaveChanges(); // gemmer data i databasen     
             
-            return RedirectToPage("AllKontaktperson");     
+            return RedirectToPage("ViewAll");     
             
             
         }
