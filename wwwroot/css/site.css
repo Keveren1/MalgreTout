@@ -55,7 +55,9 @@ html {
 body {
     background-image: url("../images/malgretout.jpg");
     margin: 0;
-    background-repeat:no-repeat; background-position: center; background-size: 1300px 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 button.accept-policy {
