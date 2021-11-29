@@ -46,16 +46,16 @@ html {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-.box {
-  background-image: url("../images/malgretout.jpg");
-  padding: 100px;
-  margin: 100px;
-}
+/*.box {
+  background-image: url("../images/malgretout.jpg");*/
+  /*padding: 100px;*/
+  /*margin: 0;
+}*/
 
 body {
-  background-image: url("../images/malgretout.jpg");
-  padding: 100px;
-  margin: 100px;
+    background-image: url("../images/malgretout.jpg");
+    margin: 0;
+    background-repeat:no-repeat; background-position: center; background-size: 1300px 600px;
 }
 
 button.accept-policy {
@@ -73,6 +73,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+      
 }
 .footer {
   position: absolute;
