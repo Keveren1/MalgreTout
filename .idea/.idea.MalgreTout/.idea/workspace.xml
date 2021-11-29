@@ -4,6 +4,9 @@
     <projectFile profileName="IIS Express">MalgreTout.csproj</projectFile>
     <projectFile profileName="MalgreTout">MalgreTout.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,10 +25,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6f7983df5846436f8e9cb779867785c7174178/9/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0d28c79367e043b1877fd1496fa71f9965790/2D/PageActionInvoker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d1e418f5099b401284f542040e6b92d018388/5/DiagnosticListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21GrOqSYYFtfhOumQSgVeWcWtNW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -37,12 +44,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3496708" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MalgreTout">
@@ -92,6 +105,36 @@
       <workItem from="1637790728096" duration="12000" />
       <workItem from="1637848676465" duration="1251000" />
       <workItem from="1637852730027" duration="613000" />
+      <workItem from="1638037075599" duration="456000" />
+      <workItem from="1638037650878" duration="3559000" />
+      <workItem from="1638041270101" duration="6085000" />
+      <workItem from="1638126256969" duration="633000" />
+      <workItem from="1638126961876" duration="431000" />
+      <workItem from="1638127420294" duration="124000" />
+      <workItem from="1638127566195" duration="273000" />
+      <workItem from="1638127938507" duration="556000" />
+      <workItem from="1638128536520" duration="582000" />
+      <workItem from="1638129168607" duration="163000" />
+      <workItem from="1638129367501" duration="53000" />
+      <workItem from="1638129501438" duration="130000" />
+      <workItem from="1638129682846" duration="64000" />
+      <workItem from="1638130450282" duration="40000" />
+      <workItem from="1638130532154" duration="62000" />
+      <workItem from="1638130766180" duration="730000" />
+      <workItem from="1638133402910" duration="221000" />
+      <workItem from="1638133654507" duration="298000" />
+      <workItem from="1638133975882" duration="808000" />
+      <workItem from="1638135239977" duration="177000" />
+      <workItem from="1638135432974" duration="229000" />
+      <workItem from="1638135678783" duration="167000" />
+      <workItem from="1638135858106" duration="57000" />
+      <workItem from="1638135988626" duration="94000" />
+      <workItem from="1638136667692" duration="194000" />
+      <workItem from="1638136991996" duration="68000" />
+      <workItem from="1638137611943" duration="42000" />
+      <workItem from="1638137678157" duration="1399000" />
+      <workItem from="1638140034871" duration="3000" />
+      <workItem from="1638141803886" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
@@ -121,7 +164,28 @@
       <option name="project" value="LOCAL" />
       <updated>1637849852215</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <created>1638041199751</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638041199751</updated>
+    </task>
+    <task id="LOCAL-00006" summary="tt">
+      <created>1638045868126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638045868126</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Test">
+      <created>1638135903934</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638135903934</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +204,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -149,6 +212,9 @@
     <MESSAGE value="Små ændringer" />
     <MESSAGE value="Fået view og create til at virke" />
     <MESSAGE value="Små rettelser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Små rettelser" />
+    <MESSAGE value="test" />
+    <MESSAGE value="tt" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>
