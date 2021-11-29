@@ -1,7 +1,7 @@
-﻿@page
+﻿@page "{searchString?}"
 @using MalgreTout.Models
-
 @model MalgreTout.Pages.View
+
 
 @{
 }
@@ -18,6 +18,16 @@
         <input type="submit" value="Filter" />
     </p>
 </form>
+
+@*<form metod="get">
+    <div class="input-group">
+        <input class="form-control" asp-for="SearchTerm" />
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+
+    </div>
+</form>*@
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary">Klik Mig</a>
 
@@ -58,7 +68,7 @@
                     @Html.DisplayFor(modelItem => item.Person)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.TLF)
+                    @Html.DisplayFor(modelItem => item.Tlf)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Mail)
