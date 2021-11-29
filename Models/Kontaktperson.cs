@@ -5,7 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MalgreTout.Models
 {
-    public partial class Kontaktperson
+    [Table("Kontaktperson")]
+    public class Kontaktperson
     {
         [Key]
         public int Id { get; set; }
