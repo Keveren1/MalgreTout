@@ -6,12 +6,13 @@
     <title>@ViewData["Title"] - MalgreTout</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+
 </head>
 <body>
-    <header>
+    <header>        
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
+            <div class="center" id="logo"><a class="navbar-brand" asp-area="" asp-page="/Index"><img class="attachment-full size-full" src="/images/malgre_tout_logo.png" alt="Malgré Tout Logo" width="50" height="50" /></a></div>
             <div class="container">
-                <a class="navbar-brand text-light" asp-area="" asp-page="/Index">Malgré Tout</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,30 +26,32 @@
                             <a class="nav-link text-light" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link text-light" asp-area="" asp-page="/AllKontaktperson">Database</a>
-                    <li class="nav-item">
-                    <a class="nav-link text-light" asp-area="" asp-page="/Create">Opret ny</a>
-                    </li>
-                    
+                            <a class="nav-link text-light" asp-area="" asp-page="/AllKontaktperson">Database</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-page="/Create">Opret ny</a>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted bg-dark">
         <div class="container">
-            &copy; 2021 - MalgreTout - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
         </div>
-    </footer>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+        <footer class="border-top footer text-muted bg-dark">
+            <div class="container">
+                &copy; 2021 - MalgreTout - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            </div>
+        </footer>
 
-    @RenderSection("Scripts", required: false)
-</body>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+        @RenderSection("Scripts", required: false)
+    </body>
 </html>
