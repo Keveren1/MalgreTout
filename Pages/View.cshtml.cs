@@ -46,7 +46,7 @@ namespace MalgreTout.Pages
 
     
 
-
+            
 
         //public IActionResult OnGetDelete(int? id)
         //{
@@ -81,7 +81,7 @@ namespace MalgreTout.Pages
 
 
 
-
+             
 
 
 
