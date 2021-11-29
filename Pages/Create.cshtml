@@ -10,7 +10,7 @@
     <br />
     <form method="post">
         <div class="row">
-
+            
         </div>
         <div class="row">
             <div class="col-md-4">
@@ -26,17 +26,30 @@
                 <span class="alert-danger" asp-validation-for="Kontaktperson.TLF"></span>
             </div>
         </div>
-
+ 
         <div class="row">
             <div class="col-md-4">
                 <label asp-for="Kontaktperson.Mail"></label>
                 <input asp-for="Kontaktperson.Mail" cl class="form-control" />
                 <span class="alert-danger" asp-validation-for="Kontaktperson.Mail"></span>
             </div>
-        </div>
-        
+        @*</div>
+        <div class="row">
+                   <div class="col-md-4">
+                       <label asp-for="Udleveringssted.Virksomhed"></label>
+                       <input asp-for="Udleveringssted.Virksomhed" class="form-control" />
+                       <span class="alert-danger" asp-validation-for="Udleveringssted.Virksomhed"></span>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-md-4">
+                       <label asp-for="Udleveringssted.Adresse"></label>
+                       <input asp-for="Udleveringssted.Adresse" class="form-control" />
+                       <span class="alert-danger" asp-validation-for="Udleveringssted.Adresse"></span>
+                   </div>
+               </div>*@
         <br />
         <input type="submit" value="Save" class="btn btn-primary" />
-        <a class="btn btn-danger" href="/allKontaktperson">Cancel</a>
+        <a class="btn btn-danger" href="/AllKontaktperson">Cancel</a></div>
     </form>
-</div> 
+</div>

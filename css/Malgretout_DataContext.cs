@@ -26,7 +26,7 @@ namespace MalgreTout.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Data Source=malgretout.database.windows.net; Initial Catalog=malgretout_data;User ID=Malthe;Password=Zealand123; Integrated Security=False;Persist Security Info=False;;");
+                optionsBuilder.UseSqlServer("Data Source=malgretoutnew.database.windows.net; Initial Catalog=MalgreTout;User ID=Malthe;Password=Zealand123; Integrated Security=False;Persist Security Info=False;;");
             }
         }
 
@@ -36,7 +36,8 @@ namespace MalgreTout.Models
 
             modelBuilder.Entity<Kontaktperson>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
+                //Database er sat til AUTO Increment (Id IDENTITY 1,1) derfor har jeg udkommenteret denne linje da vi ikke skal tilføje Id. 
+               // entity.Property(e => e.Id).ValueGeneratedNever();
 
                 entity.Property(e => e.Mail).IsUnicode(false);
 
@@ -47,7 +48,7 @@ namespace MalgreTout.Models
 
             modelBuilder.Entity<Udleveringssted>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
+               // entity.Property(e => e.Id).ValueGeneratedNever();
 
                 // entity.Property(e => e.Address).IsUnicode(false);
 

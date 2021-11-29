@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MalgreTout.Models;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+
 
 namespace MalgreTout.Pages
 {
@@ -38,16 +38,17 @@ namespace MalgreTout.Pages
             {
                 return Page(); // return page 
             }
-            
-            
 
-            //Kontaktperson.Id = 0;                  
+
+
+            //Kontaktperson.Id = 0;
+            
             var result = _Context.Add(kontaktperson); 
             _Context.SaveChanges(); // gemmer data i databasen 
 
-           // Udleveringssted.Id = 1;                                               
+            /*Udleveringssted.Id = 1;                                               
             var secondresult = _Context.Add(udleveringssted);                           
-            _Context.SaveChanges(); // gemmer data i databasen     
+            _Context.SaveChanges(); // gemmer data i databasen     #1#*/
             
             return RedirectToPage("AllKontaktperson");     
             
