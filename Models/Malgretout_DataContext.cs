@@ -9,9 +9,9 @@ namespace MalgreTout.Models
 {
     public partial class Malgretout_DataContext : DbContext
     {
-        public Malgretout_DataContext()
+       /* public Malgretout_DataContext()
         {
-        }
+        }*/
 
         public Malgretout_DataContext(DbContextOptions<Malgretout_DataContext> options)
             : base(options)
@@ -49,7 +49,7 @@ namespace MalgreTout.Models
 
             modelBuilder.Entity<Udleveringssted>(entity =>
             {
-               // entity.Property(e => e.Id).ValueGeneratedNever();
+                //entity.Property(e => e.Id).ValueGeneratedNever();
                
                entity.Property(e => e.Virksomhed).IsUnicode(false);
                
