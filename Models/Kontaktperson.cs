@@ -2,19 +2,25 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MalgreTout.Models
 {
     [Table("Kontaktperson")]
     public class Kontaktperson
     {
-        [Key]
+        //[Key]
         public int Id { get; set; }
-        [Required(ErrorMessage = "Indtast Navn")]
+        [Required]
+        [StringLength(50, ErrorMessage = "Navn må maks indeholde 50 tegn")]
         public string Person { get; set; }
-        [Required(ErrorMessage = "Indtast Tlf")]
-        public int TLF { get; set; }
-        [Required(ErrorMessage = "Indtast Mail")]
+
+        [Required]
+        [RegularExpression(@"^(\d{8})$", ErrorMessage = "Skal indeholde 8 tegn")]
+        public int Tlf { get; set; }
+
+        [Required]
+        [EmailAddress]
         public string Mail { get; set; }
     }
 }

@@ -55,7 +55,9 @@ html {
 body {
     background-image: url("../images/malgretout.jpg");
     margin: 0;
-    background-repeat:no-repeat; background-position: center; background-size: 1300px 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 button.accept-policy {
@@ -82,3 +84,14 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.label {
+  color: white;
+  padding: 8px;
+}
+
+.success {background-color: #04AA6D;} /* Green */
+.info {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */
+.other {background-color: #e7e7e7; color: black;} /* Gray */

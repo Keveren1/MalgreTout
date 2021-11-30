@@ -19,7 +19,8 @@ namespace MalgreTout.Models
         }
 
         public virtual DbSet<Kontaktperson> Kontaktperson { get; set; }
-        public virtual DbSet<Udleveringssted> Udleveringssteds { get; set; }
+        public virtual DbSet<Udleveringssted> Udleveringssted { get; set; }
+        public virtual DbSet<Postnumre> Postnumre { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -41,7 +42,7 @@ namespace MalgreTout.Models
 
                 entity.Property(e => e.Mail).IsUnicode(false);
 
-                entity.Property(e => e.TLF).ValueGeneratedNever();
+                entity.Property(e => e.Tlf).ValueGeneratedNever();
 
                 entity.Property(e => e.Person).IsUnicode(false);
             });
@@ -49,10 +50,21 @@ namespace MalgreTout.Models
             modelBuilder.Entity<Udleveringssted>(entity =>
             {
                // entity.Property(e => e.Id).ValueGeneratedNever();
-
-                // entity.Property(e => e.Address).IsUnicode(false);
-
-               // entity.Property(e => e.Name).IsUnicode(false);
+               
+               entity.Property(e => e.Virksomhed).IsUnicode(false);
+               
+               entity.Property(e => e.Adresse).IsUnicode(false);
+               
+            });
+            
+            modelBuilder.Entity<Postnumre>(entity =>
+            {
+                // entity.Property(e => e.Id).ValueGeneratedNever();
+               
+                entity.Property(e => e.Postnr).IsUnicode(false);
+               
+                entity.Property(e => e.Bynavn).IsUnicode(false);
+               
             });
 
             OnModelCreatingPartial(modelBuilder);

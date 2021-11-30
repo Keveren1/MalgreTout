@@ -7,11 +7,14 @@ namespace MalgreTout.Models
 {
     public partial class Udleveringssted
     {
-        [Key]
+        //[Key]
         public int Id { get; set; }
-       [Required(ErrorMessage = "Indtast Navn")]
+        
+       [Required]
+       [StringLength(25, ErrorMessage = "Må ikke indeholde mere end 25 tegn")]
         public string Virksomhed { get; set; }
-        [Required(ErrorMessage = "Indtast Adresse")]
+        [Required]
+        [StringLength(25, ErrorMessage = "Må ikke indeholde mere end 25 tegn")]
         public string Adresse { get; set; }
     }
 }

@@ -21,7 +21,10 @@ namespace MalgreTout.Pages
          
          [BindProperty]
          public Kontaktperson Kontaktperson {get; set; }
+         [BindProperty]
          public Udleveringssted Udleveringssted { get; set; }
+         [BindProperty]
+         public Postnumre Postnumre { get; set; }
         
         public void OnGet()
         {
@@ -32,7 +35,8 @@ namespace MalgreTout.Pages
         public ActionResult OnPost()
         {
             var kontaktperson = Kontaktperson;
-            var udleveringssted = Udleveringssted; 
+            var udleveringssted = Udleveringssted;
+            var postnumre = Postnumre;
             
             if (!ModelState.IsValid)
             {
@@ -41,16 +45,16 @@ namespace MalgreTout.Pages
 
 
 
-            //Kontaktperson.Id = 0;
+            var secondresult = _Context.Add(udleveringssted);                           
+            _Context.SaveChanges(); // gemmer data i databasen   
             
             var result = _Context.Add(kontaktperson); 
             _Context.SaveChanges(); // gemmer data i databasen 
-
-            /*Udleveringssted.Id = 1;                                               
-            var secondresult = _Context.Add(udleveringssted);                           
-            _Context.SaveChanges(); // gemmer data i databasen     #1#*/
             
-            return RedirectToPage("AllKontaktperson");     
+            var thridresult = _Context.Add(postnumre);                           
+            _Context.SaveChanges(); // gemmer data i databasen     
+            
+            return RedirectToPage("ViewAll");     
             
             
         }

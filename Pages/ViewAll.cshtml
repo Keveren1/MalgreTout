@@ -1,0 +1,145 @@
+﻿@page
+@using MalgreTout.Models
+
+@model ViewAllModel
+
+<h2>MalgreToutDatabase</h2>
+
+<p>
+    <a class="btn btn-primary" href="/Create">Opret ny</a>
+    
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayName("Id")
+        </th>
+        <th>
+            @Html.DisplayName("Person")
+        </th>
+        <th>
+            @Html.DisplayName("Tlf")
+        </th>
+        <th>
+            @Html.DisplayName("Mail")
+        </th>
+        <th>Edit | Delete</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    @foreach (var item in Model.KontaktpersonList)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Person)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tlf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mail)
+            </td>
+            <td>
+                <a asp-page="./Update" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./ViewAll" onclick="return confirm
+                                ('Are you sure you want to delete this item?');"
+                   asp-page-handler="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayName("Id")
+        </th>
+        <th>
+            @Html.DisplayName("Virksomhed")
+        </th>
+        <th>
+            @Html.DisplayName("Adresse")
+        </th>
+        <th>Edit | Delete</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    @foreach (var item in Model.UdleveringsstedList)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Virksomhed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adresse)
+            </td>
+            <td>
+                <a asp-page="./Update" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./ViewAll" onclick="return confirm
+                        ('Are you sure you want to delete this item?');"
+                   asp-page-handler="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+
+    }
+    </tbody>
+</table>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayName("Id")
+        </th>
+        <th>
+            @Html.DisplayName("Postnr")
+        </th>
+        <th>
+            @Html.DisplayName("Bynavn")
+        </th>
+       
+        <th>Edit | Delete</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    @foreach (var item in Model.PostnumreList)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Postnr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bynavn)
+            </td>
+            <td>
+                <a asp-page="./Update" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./ViewAll" onclick="return confirm
+                        ('Are you sure you want to delete this item?');"
+                   asp-page-handler="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<br />
+<br />
+<form method="post">
+    <input type="submit" value="Export til Excel" asp-page-handler="Export" />
+</form>
+    
