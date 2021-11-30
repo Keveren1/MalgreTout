@@ -9,9 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pages/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Delete.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Test.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Test.cshtml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +146,7 @@
       <workItem from="1638192284193" duration="25518000" />
       <workItem from="1638220069388" duration="4000" />
       <workItem from="1638224005231" duration="3687000" />
-      <workItem from="1638227897972" duration="5877000" />
+      <workItem from="1638227897972" duration="6466000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
@@ -219,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638227659886</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tt">
+      <created>1638234097926</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1638234097926</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,11 +254,11 @@
     <MESSAGE value="Fået view og create til at virke" />
     <MESSAGE value="Små rettelser" />
     <MESSAGE value="test" />
-    <MESSAGE value="tt" />
     <MESSAGE value="Test" />
     <MESSAGE value="Fikset" />
     <MESSAGE value="Tilføjet den fulde database" />
     <MESSAGE value="Små ting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Små ting" />
+    <MESSAGE value="tt" />
+    <option name="LAST_COMMIT_MESSAGE" value="tt" />
   </component>
 </project>
