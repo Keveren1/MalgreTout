@@ -19,11 +19,7 @@ namespace MalgreTout.Pages
         {
             _Context = malgretoutDataContext;
         }
-
-       
-
-
-
+        
         public List<Kontaktperson> KontaktpersonList { get; set; }
         public List<Udleveringssted> UdleveringsstedList { get; set; }
         public List<Postnumre> PostnumreList { get; set; }
