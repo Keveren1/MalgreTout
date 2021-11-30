@@ -76,7 +76,7 @@ namespace MalgreTout.Pages
             Kontaktperson = await kontaktpeople.ToListAsync();*/
             
             
-        public IList<Kontaktperson> Kontaktperson { get; set; }
+        /*public IList<Kontaktperson> Kontaktperson { get; set; }*/
         
         [BindProperty(SupportsGet = true)] 
         public string SearchString { get; set; }
@@ -98,9 +98,25 @@ namespace MalgreTout.Pages
                     Test = Test.Where(s => s.Person.Contains(SearchString));
                 }
 
-                Kontaktperson = await Test.ToListAsync();
+                KontaktpersonList = await Test.ToListAsync();
             }
             
+            
+            
+            
+            
+            
+            /*public async Task OnGetAsync()
+            {
+                var movies = from m in _context.Movie
+                    select m;
+                if (!string.IsNullOrEmpty(SearchString))
+                {
+                    movies = movies.Where(s => s.Title.Contains(SearchString));
+                }
+
+                Movie = await movies.ToListAsync();
+            }*/
             
 
 

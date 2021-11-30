@@ -4,9 +4,10 @@
 
 
 @{
+    ViewData["Person"] = "Test";
 }
 
-<h2>Index</h2>
+<h2>Person</h2>
 
 <p>
     <a asp-page="Create">Opret ny</a>
@@ -14,7 +15,7 @@
 
 <form>
     <p>
-        Title: <input type="text" asp-for="SearchString" />
+        Person: <input type="text" asp-for="SearchString" />
         <input type="submit" value="Filter" />
     </p>
 </form>
@@ -50,7 +51,7 @@
             </th>
 
             <td>
-                @Html.DisplayNameFor(Model => Model.Kontaktperson[0].Person)
+                @Html.DisplayNameFor(Model => Model.KontaktpersonList[0].Person)
             </td>
 
 

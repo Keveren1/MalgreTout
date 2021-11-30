@@ -7,9 +7,22 @@
 
 <p>
     <a class="btn btn-primary" href="/Create">Opret ny</a>
-    
-    
 </p>
+
+<h1>Index</h1>
+
+<form>
+    <p>
+        Person: <input type="text" asp-for="SearchString" />
+        @*$1$Mail: <input type="text" asp-for="SearchString" />#1#
+        Virksomhed: <input type="text" asp-for="SearchString" />
+        $1$Adresse: <input type="text" asp-for="SearchString" />#1#
+        Bynavn: <input type="text" asp-for="SearchString" />*@
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+
 <table class="table table-dark">
     <thead>
     <tr>

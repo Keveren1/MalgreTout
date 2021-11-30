@@ -30,7 +30,19 @@ namespace MalgreTout.Pages
         public List<Udleveringssted> UdleveringsstedList { get; set; }
         public List<Postnumre> PostnumreList { get; set; }
         
-        public void OnGet()
+        
+        
+        
+        
+        
+        
+        [BindProperty(SupportsGet = true)] 
+        public string SearchString { get; set; }
+
+
+
+
+        public async Task OnGetAsync()
         {
             var data = (from kontaktpersonlist in _Context.Kontaktperson
                         select kontaktpersonlist).ToList();
@@ -44,7 +56,33 @@ namespace MalgreTout.Pages
             KontaktpersonList = data;
             UdleveringsstedList = data2;
             PostnumreList = data3;
+            
+            var Kontakt = from m in _Context.Kontaktperson
+                select m;
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                Kontakt = Kontakt.Where(s => s.Person.Contains(SearchString));
+                /*Kontakt = Kontakt.Where(s => s.Mail.Contains(SearchString));*/
+            }
+            var Udlevering = from m in _Context.Udleveringssted
+                select m;
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                /*Udlevering = Udlevering.Where(s => s.Adresse.Contains(SearchString));*/
+                Udlevering = Udlevering.Where(s => s.Virksomhed.Contains(SearchString));
+            }
+            var By = from m in _Context.Postnumre
+                select m;
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                By = By.Where(s => s.Bynavn.Contains(SearchString));
+            }
+            
+            KontaktpersonList = await Kontakt.ToListAsync();
+            UdleveringsstedList = await Udlevering.ToListAsync();
+            PostnumreList = await By.ToListAsync();
         }
+        
         
         public ActionResult OnGetDelete(int? id)
         {
