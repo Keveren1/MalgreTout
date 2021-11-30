@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MalgreTout.Models
 {
-    public partial class Kontaktperson
+    [Table("Kontaktperson")]
+    public class Kontaktperson
     {
         [Key]
         public int Id { get; set; }
