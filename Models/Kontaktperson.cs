@@ -21,8 +21,6 @@ namespace MalgreTout.Models
 
         [Required]
         [RegularExpression(@"^[a-zA-Z0-9._+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,9}*$")]
-
-
         public string Mail { get; set; }
     }
 }

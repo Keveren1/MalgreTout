@@ -9,11 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_11_2021,_11_30_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_11_2021__11_30__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Kontaktperson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Kontaktperson.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Malgretout_DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Malgretout_DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +154,7 @@
       <workItem from="1638261802825" duration="7289000" />
       <workItem from="1638269997813" duration="1021000" />
       <workItem from="1638271131468" duration="1017000" />
+      <workItem from="1638272179338" duration="656000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
