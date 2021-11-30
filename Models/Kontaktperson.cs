@@ -20,11 +20,7 @@ namespace MalgreTout.Models
         public int Tlf { get; set; }
 
         [Required]
-        [RegularExpression(@"^[a-zA-Z0-9._+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,9}*$")]
+        [RegularExpression(@"^[a-zA-Z0-9._+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,9}$", ErrorMessage ="Forkert mail format")]
         public string Mail { get; set; }
     }
 }
-
-
-
-/*@"^[a-zA-Z0-9._+-]+@"@")[a-zA-Z0-9.-]+\.[a-zA-Z]{2,9}$>*/

@@ -11,7 +11,8 @@
     <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Kontaktperson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Kontaktperson.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/ViewAll.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ViewAll.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +156,7 @@
       <workItem from="1638269997813" duration="1021000" />
       <workItem from="1638271131468" duration="1017000" />
       <workItem from="1638272179338" duration="793000" />
+      <workItem from="1638272999136" duration="3437000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
