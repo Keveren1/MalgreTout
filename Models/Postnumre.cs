@@ -8,6 +8,7 @@ namespace MalgreTout.Models
 {
     public partial class Postnumre
     {
+        [Key]
         public int Id { get; set; }
         
         [Required]

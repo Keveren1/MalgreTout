@@ -51,6 +51,7 @@ namespace MalgreTout.Pages
                 Postnumre = data3;
 
             }
+            
         }
         public ActionResult OnPost()
         {
@@ -62,12 +63,12 @@ namespace MalgreTout.Pages
             {
                 return Page();
             }
-
+            
+            _Context.Entry(udleveringssted).Property(x => x.Virksomhed).IsModified = true;
+            _Context.Entry(udleveringssted).Property(x => x.Adresse).IsModified = true;
             _Context.Entry(kontaktperson).Property(x => x.Person).IsModified = true;
             _Context.Entry(kontaktperson).Property(x => x.Tlf).IsModified = true;
             _Context.Entry(kontaktperson).Property(x => x.Mail).IsModified = true;
-            _Context.Entry(udleveringssted).Property(x => x.Virksomhed).IsModified = true;
-            _Context.Entry(udleveringssted).Property(x => x.Adresse).IsModified = true;
             _Context.Entry(postnumre).Property(x => x.Postnr).IsModified = true;
             _Context.Entry(postnumre).Property(x => x.Bynavn).IsModified = true;
             _Context.SaveChanges();

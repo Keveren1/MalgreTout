@@ -8,7 +8,7 @@ namespace MalgreTout.Models
 {
     public partial class Kontaktperson
     {
-        //[Key]
+        [Key]
         public int Id { get; set; }
         [Required]
         [StringLength(50, ErrorMessage = "Navn må maks indeholde 50 tegn")]

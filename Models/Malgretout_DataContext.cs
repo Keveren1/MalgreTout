@@ -49,7 +49,7 @@ namespace MalgreTout.Models
 
             modelBuilder.Entity<Udleveringssted>(entity =>
             {
-               // entity.Property(e => e.Id).ValueGeneratedNever();
+                //entity.Property(e => e.Id).ValueGeneratedNever();
                
                entity.Property(e => e.Virksomhed).IsUnicode(false);
                
