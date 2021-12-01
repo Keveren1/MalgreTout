@@ -2,6 +2,12 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using System;  
+using System.Collections.Generic;  
+using System.Data.SqlClient;  
+using System.Threading.Tasks;  
+using Microsoft.EntityFrameworkCore;  
+using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
@@ -18,6 +24,7 @@ namespace MalgreTout.Models
         {
         }
 
+      
         public virtual DbSet<Kontaktperson> Kontaktperson { get; set; }
         public virtual DbSet<Udleveringssted> Udleveringssted { get; set; }
         public virtual DbSet<Postnumre> Postnumre { get; set; }
@@ -66,10 +73,14 @@ namespace MalgreTout.Models
                 entity.Property(e => e.Bynavn).IsUnicode(false);
                
             });
+            
+            
 
             OnModelCreatingPartial(modelBuilder);
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+        
+        
     }
 }

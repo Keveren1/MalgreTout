@@ -8,7 +8,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="" />
+    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f02967467b9b23ba09c1aa414bc96ca293f5425" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +33,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a646a1b69a6b46959f2b93d08bf1d8f71bcf88/15/DbUpdateConcurrencyException.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Create.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a646a1b69a6b46959f2b93d08bf1d8f71bcf88/C/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/01c5d6f43be94e51b2fd5de7067828d8131b88/ED/SingleQueryingEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28be434f13d647688f5ff1b9d2bc98278f5778/233/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
@@ -157,6 +159,8 @@
       <workItem from="1638281576787" duration="699000" />
       <workItem from="1638302719299" duration="1787000" />
       <workItem from="1638307189343" duration="14930000" />
+      <workItem from="1638344294864" duration="463000" />
+      <workItem from="1638344794265" duration="7436000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
@@ -270,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638322154150</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Småting">
+      <created>1638353526530</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1638353526530</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +319,7 @@
     <MESSAGE value="Fucking fikset Update!" />
     <MESSAGE value="Fået søg til at virke" />
     <MESSAGE value="Små ændringer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Små ændringer" />
+    <MESSAGE value="Småting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Småting" />
   </component>
 </project>
