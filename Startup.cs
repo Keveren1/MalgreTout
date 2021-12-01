@@ -26,14 +26,9 @@ namespace MalgreTout
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            /*
-            services.AddMvc();
-            var connection = Configuration.GetConnectionString("DatabaseConnection");
-            services.AddDbContext<Malgretout_DataContext>(options => options.UseSqlServer(connection));
-            */
-            
             services.AddRazorPages();
             services.AddDbContext<Malgretout_DataContext>();
+            services.AddDbContext<Malgretout_DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("db_corelogin"))); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
