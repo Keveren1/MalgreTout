@@ -18,34 +18,120 @@ namespace MalgreTout.Pages
 {
     public class ViewAllModel : PageModel
     {
-        
+
         //Dependency Injection
         Malgretout_DataContext _Context;
         public ViewAllModel(Malgretout_DataContext Malgretout_databasecontext)
         {
             _Context = Malgretout_databasecontext;
         }
-        
+
+
+
         public List<Kontaktperson> KontaktpersonList { get; set; }
         public List<Udleveringssted> UdleveringsstedList { get; set; }
         public List<Postnumre> PostnumreList { get; set; }
-        
-        public void OnGet()
+
+
+
+        [BindProperty(SupportsGet = true)] public string SearchString { get; set; }
+
+
+
+        public string KontaktpersonSort { get; set; }
+        public string UdleveringsstedSort { get; set; }
+        public string PostnrSort { get; set; }
+
+
+
+        public async Task OnGetAsync(string sortOrder)
         {
-            var data = (from kontaktpersonlist in _Context.Kontaktperson
-                        select kontaktpersonlist).ToList();
-            
-            var data2 = (from udleveringsstedList in _Context.Udleveringssted
+
+            //Henter database og laver liste
+            var kontaktData = (from kontaktpersonlist in _Context.Kontaktperson
+                select kontaktpersonlist).ToList();
+
+            var udleveringData = (from udleveringsstedList in _Context.Udleveringssted
                 select udleveringsstedList).ToList();
-            
-            var data3 = (from postnumreList in _Context.Postnumre
+
+            var postnumreData = (from postnumreList in _Context.Postnumre
                 select postnumreList).ToList();
-            
-            KontaktpersonList = data;
-            UdleveringsstedList = data2;
-            PostnumreList = data3;
-        }
+
+            KontaktpersonList = kontaktData;
+            UdleveringsstedList = udleveringData;
+            PostnumreList = postnumreData;
+
+
+
+            //Search metode
+            var Kontakt = from m in _Context.Kontaktperson
+                select m;
+            if (!string.IsNullOrEmpty(SearchString)) {
+                Kontakt = Kontakt.Where(s => s.Person.Contains(SearchString));
+                /*Kontakt = Kontakt.Where(s => s.Mail.Contains(SearchString));*/
+            }
+
+            var Udlevering = from m in _Context.Udleveringssted
+                select m;
+            if (!string.IsNullOrEmpty(SearchString)) {
+                /*Udlevering = Udlevering.Where(s => s.Adresse.Contains(SearchString));*/
+                Udlevering = Udlevering.Where(s => s.Virksomhed.Contains(SearchString));
+            }
+
+            var Post = from m in _Context.Postnumre
+                select m;
+            if (!string.IsNullOrEmpty(SearchString)) {
+                Post = Post.Where(s => s.Bynavn.Contains(SearchString));
+            }
+
+            KontaktpersonList = await Kontakt.ToListAsync();
+            UdleveringsstedList = await Udlevering.ToListAsync();
+            PostnumreList = await Post.ToListAsync();
         
+        
+
+        //Sortering metode
+        KontaktpersonSort = String.IsNullOrEmpty(sortOrder)? "person_desc" : "";
+        UdleveringsstedSort = String.IsNullOrEmpty(sortOrder)? "virksomhed_desc" : "";
+        PostnrSort = sortOrder == "Postnr" ? "postnr_desc" : "Postnr";
+
+        IQueryable<Kontaktperson> kontaktperson = from s in _Context.Kontaktperson
+            select s;
+
+        IQueryable<Udleveringssted> udleveringssted = from s in _Context.Udleveringssted
+            select s;
+
+        IQueryable<Postnumre> postnumre = from s in _Context.Postnumre
+                select s;
+
+            switch (sortOrder)
+        {
+            case "person_desc":
+            kontaktperson = kontaktperson.OrderByDescending(s => s.Person);
+            break;
+            case "virksomhed_desc":
+            udleveringssted = udleveringssted.OrderByDescending(s => s.Virksomhed);
+            break;
+            case "virksomhed":
+            udleveringssted = udleveringssted.OrderBy(s => s.Virksomhed);
+            break;
+            case "postnr_desc":
+            postnumre = postnumre.OrderByDescending(s => s.Postnr);
+            break;
+            default:
+            kontaktperson = kontaktperson.OrderBy(s => s.Id);
+            break;
+        }
+            
+            // denne ødelækker søg funktionen (SPØRG Jens Peter!)
+            /*KontaktpersonList = await kontaktperson.AsNoTracking().ToListAsync();
+            UdleveringsstedList = await udleveringssted.AsNoTracking().ToListAsync();
+            PostnumreList = await postnumre.AsNoTracking().ToListAsync();*/
+    }
+
+
+
+        //Delete metode
         public ActionResult OnGetDelete(int? id)
         {
             if (id != null)
@@ -77,8 +163,9 @@ namespace MalgreTout.Pages
 
             return RedirectToPage("ViewAll");
         }
-
-
+        
+        
+        
         //Export til Excel metode
         public FileResult OnPostExport()
         {
@@ -93,8 +180,7 @@ namespace MalgreTout.Pages
                 new DataColumn("Tlf"),
                 new DataColumn("Mail")
             });
-                
-
+            
             var kontaktperson = from Kontaktperson in this._Context.Kontaktperson.Take(10)
                             select Kontaktperson;
 

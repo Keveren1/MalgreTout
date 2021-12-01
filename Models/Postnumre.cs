@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace MalgreTout.Models
 
 {
+    [Table("Postnumre")]
     public partial class Postnumre
     {
         [Key]

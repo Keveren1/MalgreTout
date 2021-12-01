@@ -5,21 +5,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MalgreTout.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace MalgreTout.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly Malgretout_DataContext _Context;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(Malgretout_DataContext malgretoutDataContext)
         {
-            _logger = logger;
+            _Context = malgretoutDataContext;
         }
 
-        public void OnGet()
-        {
-
-        }
     }
 }

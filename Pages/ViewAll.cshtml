@@ -14,17 +14,30 @@
 
 <p>
     <a class="btn btn-primary" href="/Create">Opret ny</a>
-    
-    
 </p>
-<table class="table table-dark border-collapse: collapse">
+
+<form>
+    <p>
+        Søg navn: <input type="text" asp-for="SearchString" />
+        @*$1$Mail: <input type="text" asp-for="SearchString" />#1#
+        Virksomhed: <input type="text" asp-for="SearchString" />
+        $1$Adresse: <input type="text" asp-for="SearchString" />#1#
+        Bynavn: <input type="text" asp-for="SearchString" />*@
+        <input type="submit" value="Filter" /> | <a asp-page="./ViewAll"> Tilbage til liste</a>
+    </p>
+</form>
+
+
+<table class="table table-dark">
     <thead>
     <tr>
         @*<th>
             @Html.DisplayName("Id")
         </th>*@
         <th>
-            @Html.DisplayName("Person")
+            <a asp-page="./ViewAll" asp-route-sortOrder="@Model.KontaktpersonSort">
+                @Html.DisplayNameFor(model => model.KontaktpersonList[0].Person)
+            </a>
         </th>
         <th>
             @Html.DisplayName("Tlf")
@@ -72,7 +85,9 @@
             @Html.DisplayName("Id")
         </th>*@
         <th>
-            @Html.DisplayName("Virksomhed")
+            <a asp-page="./ViewAll" asp-route-sortOrder="@Model.UdleveringsstedSort">
+                @Html.DisplayNameFor(model => model.UdleveringsstedList[0].Virksomhed)
+            </a>
         </th>
         <th>
             @Html.DisplayName("Adresse")
@@ -95,10 +110,10 @@
                 @Html.DisplayFor(modelItem => item.Adresse)
             </td>
             <td>
-                <a asp-page="./Update" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Update" asp-route-id="@item.Id"class="btn btn-outline-light">Edit</a> |
                 <a asp-page="./ViewAll" onclick="return confirm
                         ('Are you sure you want to delete this item?');"
-                   asp-page-handler="Delete" asp-route-id="@item.Id">Delete</a>
+                   asp-page-handler="Delete" asp-route-id="@item.Id"class="btn btn-outline-light">Delete</a>
             </td>
         </tr>
 
@@ -106,14 +121,18 @@
     </tbody>
 </table>
 
-<table class="table">
+<table class="table table-dark">
     <thead>
     <tr>
-        @*<th>
-            @Html.DisplayName("Id")
-        </th>*@
         <th>
-            @Html.DisplayName("Postnr")
+            <a asp-page="./ViewAll" asp-route-sortOrder="@Model.PostnrSort">
+                @Html.DisplayNameFor(model => model.PostnumreList[0].Id)
+            </a>
+        </th>
+        <th>
+            <a asp-page="./ViewAll" asp-route-sortOrder="@Model.PostnrSort">
+                @Html.DisplayNameFor(model => model.PostnumreList[0].Postnr)
+            </a>
         </th>
         <th>
             @Html.DisplayName("Bynavn")
@@ -137,10 +156,10 @@
                 @Html.DisplayFor(modelItem => item.Bynavn)
             </td>
             <td>
-                <a asp-page="./Update" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Update" asp-route-id="@item.Id"class="btn btn-outline-light">Edit</a> |
                 <a asp-page="./ViewAll" onclick="return confirm
                         ('Are you sure you want to delete this item?');"
-                   asp-page-handler="Delete" asp-route-id="@item.Id">Delete</a>
+                   asp-page-handler="Delete" asp-route-id="@item.Id"class="btn btn-outline-light">Delete</a>
             </td>
         </tr>
     }

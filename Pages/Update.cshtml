@@ -2,11 +2,11 @@
 @using MalgreTout.Models
 @model UpdateModel
 <div class="container">
-    <h3>Opdater Kontaktperson</h3>
+    <h3>Opdater Database</h3>
     <hr />
     <br />
     <form method="post">
-        <input asp-for="Kontaktperson.Id" type="hidden" />
+        <input asp-for="Udleveringssted.Id" type="hidden" />
         <div class="row">
                     <div class="col-md-4">
                         <label asp-for="Udleveringssted.Virksomhed"></label>
@@ -15,7 +15,8 @@
                     </div>
                 </div>
                 
-                <div class="row">
+        <input asp-for="Udleveringssted.Id" type="hidden" />
+        <div class="row">
                     <div class="col-md-4">
                         <label asp-for="Udleveringssted.Adresse"></label>
                         <input asp-for="Udleveringssted.Adresse" class="form-control"/>
@@ -23,7 +24,8 @@
                     </div>
                 </div>
                 
-                <div class="row">
+        <input asp-for="Postnumre.Id" type="hidden" />
+        <div class="row">
                     <div class="col-md-4">
                         <label asp-for="Postnumre.Postnr"></label>
                         <input asp-for="Postnumre.Postnr" class="form-control"/>
@@ -31,7 +33,8 @@
                     </div>
                 </div>
                 
-                <div class="row">
+        <input asp-for="Postnumre.Id" type="hidden" />
+        <div class="row">
                     <div class="col-md-4">
                         <label asp-for="Postnumre.Bynavn"></label>
                         <input asp-for="Postnumre.Bynavn" class="form-control"/>
@@ -39,7 +42,8 @@
                     </div>
                 </div>
                 
-                <div class="row">
+        <input asp-for="Kontaktperson.Id" type="hidden" />
+        <div class="row">
                     <div class="col-md-4">
                         <label asp-for="Kontaktperson.Person"></label>
                         <input asp-for="Kontaktperson.Person" class="form-control"/>
@@ -47,7 +51,8 @@
                     </div>
                 </div>
                 
-                <div class="row">
+        <input asp-for="Kontaktperson.Id" type="hidden" />
+        <div class="row">
                     <div class="col-md-4">
                         <label asp-for="Kontaktperson.Tlf"></label>
                         <input asp-for="Kontaktperson.Tlf" class="form-control"/>
@@ -55,7 +60,8 @@
                     </div>
                 </div>
         
-                <div class="row">
+        <input asp-for="Kontaktperson.Id" type="hidden" />
+        <div class="row">
                     <div class="col-md-4">
                         <label asp-for="Kontaktperson.Mail"></label>
                         <input asp-for="Kontaktperson.Mail" cl class="form-control"/>

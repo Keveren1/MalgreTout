@@ -76,7 +76,7 @@ namespace MalgreTout.Pages
             Kontaktperson = await kontaktpeople.ToListAsync();*/
             
             
-        public IList<Kontaktperson> Kontaktperson { get; set; }
+        /*public IList<Kontaktperson> Kontaktperson { get; set; }*/
         
         [BindProperty(SupportsGet = true)] 
         public string SearchString { get; set; }
@@ -98,9 +98,57 @@ namespace MalgreTout.Pages
                     Test = Test.Where(s => s.Person.Contains(SearchString));
                 }
 
-                Kontaktperson = await Test.ToListAsync();
+                KontaktpersonList = await Test.ToListAsync();
             }
             
+            
+            
+            public string NameSort { get; set; }
+            public string DateSort { get; set; }
+            public string CurrentFilter { get; set; }
+            public string CurrentSort { get; set; }
+
+            
+            
+            
+            
+            
+            /*public async Task OnGetAsync(string sortOrder)
+            {
+                // using System;
+                NameSort = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+                
+                IQueryable<Kontaktperson> studentsIQ = from s in _Context.Kontaktperson
+                    select s;
+
+                switch (sortOrder)
+                {
+                    case "name_desc":
+                        studentsIQ = studentsIQ.OrderByDescending(s => s.Person);
+                        break;
+                    default:
+                        studentsIQ = studentsIQ.OrderBy(s => s.Person);
+                        break;
+                }
+
+                KontaktpersonList = await studentsIQ.AsNoTracking().ToListAsync();
+            }*/
+    }
+            
+            
+            
+            
+            /*public async Task OnGetAsync()
+            {
+                var movies = from m in _context.Movie
+                    select m;
+                if (!string.IsNullOrEmpty(SearchString))
+                {
+                    movies = movies.Where(s => s.Title.Contains(SearchString));
+                }
+
+                Movie = await movies.ToListAsync();
+            }*/
             
 
 
@@ -132,5 +180,5 @@ namespace MalgreTout.Pages
 
 
         }
-    }
+ 
 

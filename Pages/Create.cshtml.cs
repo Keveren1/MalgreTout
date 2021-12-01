@@ -11,12 +11,13 @@ namespace MalgreTout.Pages
 {
     public class Create : PageModel
     {
-        
+        //Dependency Injection
         Malgretout_DataContext _Context;
          public Create(Malgretout_DataContext malgretoutDataContext)
          {
              _Context = malgretoutDataContext; 
          }
+         
          
          
          [BindProperty]
@@ -32,6 +33,8 @@ namespace MalgreTout.Pages
         }
        
 
+        
+        //gemmer data i databasen 
         public ActionResult OnPost()
         {
             var kontaktperson = Kontaktperson;
@@ -40,23 +43,19 @@ namespace MalgreTout.Pages
             
             if (!ModelState.IsValid)
             {
-                return Page(); // return page 
+                return Page(); 
             }
-
-
-
+            
             var secondresult = _Context.Add(udleveringssted);                           
-            _Context.SaveChanges(); // gemmer data i databasen   
+            _Context.SaveChanges();  
             
             var result = _Context.Add(kontaktperson); 
-            _Context.SaveChanges(); // gemmer data i databasen 
+            _Context.SaveChanges(); 
             
             var thridresult = _Context.Add(postnumre);                           
-            _Context.SaveChanges(); // gemmer data i databasen     
+            _Context.SaveChanges();    
             
-            return RedirectToPage("ViewAll");     
-            
-            
+            return RedirectToPage("ViewAll");
         }
     }
 }
