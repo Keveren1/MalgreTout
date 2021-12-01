@@ -12,11 +12,13 @@ namespace MalgreTout.Pages
 {
     public class UpdateModel : PageModel
     {
+        //Dependency Injection
         Malgretout_DataContext _Context;
         public UpdateModel(Malgretout_DataContext Malgretout_databaseContext)
         {
             _Context = Malgretout_databaseContext;
         }
+        
         
         
         [BindProperty]
@@ -28,31 +30,31 @@ namespace MalgreTout.Pages
         
         
         
-        //public object Kontaktpeople { get; private set; }
-
+        //Indhenter data fra felter
         public void OnGet(int? id)
         {
             if (id != null)
             {
-                var data = (from kontaktperson in _Context.Kontaktperson
+                var kontaktData = (from kontaktperson in _Context.Kontaktperson
                             where kontaktperson.Id == id
                             select kontaktperson).SingleOrDefault();
                 
-                var data2 = (from udleveringssted in _Context.Udleveringssted
+                var udleveringData = (from udleveringssted in _Context.Udleveringssted
                     where udleveringssted.Id == id
                     select udleveringssted).SingleOrDefault();
                 
-                var data3 = (from postnumre in _Context.Postnumre
+                var postData = (from postnumre in _Context.Postnumre
                     where postnumre.Id == id
                     select postnumre).SingleOrDefault();
                 
-                Kontaktperson = data;
-                Udleveringssted = data2;
-                Postnumre = data3;
-
+                Kontaktperson = kontaktData;
+                Udleveringssted = udleveringData;
+                Postnumre = postData;
             }
-            
         }
+        
+        
+        //Gemmer ændringer til felter 
         public ActionResult OnPost()
         {
             var kontaktperson = Kontaktperson;

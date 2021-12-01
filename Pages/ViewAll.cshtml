@@ -9,16 +9,14 @@
     <a class="btn btn-primary" href="/Create">Opret ny</a>
 </p>
 
-<h1>Index</h1>
-
 <form>
     <p>
-        Person: <input type="text" asp-for="SearchString" />
+        Søg navn: <input type="text" asp-for="SearchString" />
         @*$1$Mail: <input type="text" asp-for="SearchString" />#1#
         Virksomhed: <input type="text" asp-for="SearchString" />
         $1$Adresse: <input type="text" asp-for="SearchString" />#1#
         Bynavn: <input type="text" asp-for="SearchString" />*@
-        <input type="submit" value="Filter" />
+        <input type="submit" value="Filter" /> | <a asp-page="./ViewAll"> Tilbage til liste</a>
     </p>
 </form>
 
@@ -30,7 +28,9 @@
             @Html.DisplayName("Id")
         </th>
         <th>
-            @Html.DisplayName("Person")
+            <a asp-page="./ViewAll" asp-route-sortOrder="@Model.KontaktpersonSort">
+                @Html.DisplayNameFor(model => model.KontaktpersonList[0].Person)
+            </a>
         </th>
         <th>
             @Html.DisplayName("Tlf")
@@ -78,7 +78,9 @@
             @Html.DisplayName("Id")
         </th>
         <th>
-            @Html.DisplayName("Virksomhed")
+            <a asp-page="./ViewAll" asp-route-sortOrder="@Model.UdleveringsstedSort">
+                @Html.DisplayNameFor(model => model.UdleveringsstedList[0].Virksomhed)
+            </a>
         </th>
         <th>
             @Html.DisplayName("Adresse")
@@ -116,10 +118,14 @@
     <thead>
     <tr>
         <th>
-            @Html.DisplayName("Id")
+            <a asp-page="./ViewAll" asp-route-sortOrder="@Model.PostnrSort">
+                @Html.DisplayNameFor(model => model.PostnumreList[0].Id)
+            </a>
         </th>
         <th>
-            @Html.DisplayName("Postnr")
+            <a asp-page="./ViewAll" asp-route-sortOrder="@Model.PostnrSort">
+                @Html.DisplayNameFor(model => model.PostnumreList[0].Postnr)
+            </a>
         </th>
         <th>
             @Html.DisplayName("Bynavn")

@@ -20,24 +20,5 @@ namespace MalgreTout.Pages
             _Context = malgretoutDataContext;
         }
 
-        public IList<Kontaktperson> Kontaktperson { get; set; }
-        [BindProperty(SupportsGet = true)]
-        public string SearchString { get; set; }
-        public SelectList Genres { get; set; }
-        [BindProperty(SupportsGet = true)]
-        public string MovieGenre { get; set; }
-        
-        public async Task OnGetAsync()
-        {
-            var kontakt = from m in _Context.Kontaktperson
-                select m;
-            if (!string.IsNullOrEmpty(SearchString))
-            {
-                kontakt = kontakt.Where(s => s.Person.Contains(SearchString));
-            }
-
-            Kontaktperson = await kontakt.ToListAsync();
-        }
-        
     }
 }

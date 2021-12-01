@@ -103,6 +103,38 @@ namespace MalgreTout.Pages
             
             
             
+            public string NameSort { get; set; }
+            public string DateSort { get; set; }
+            public string CurrentFilter { get; set; }
+            public string CurrentSort { get; set; }
+
+            
+            
+            
+            
+            
+            /*public async Task OnGetAsync(string sortOrder)
+            {
+                // using System;
+                NameSort = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+                
+                IQueryable<Kontaktperson> studentsIQ = from s in _Context.Kontaktperson
+                    select s;
+
+                switch (sortOrder)
+                {
+                    case "name_desc":
+                        studentsIQ = studentsIQ.OrderByDescending(s => s.Person);
+                        break;
+                    default:
+                        studentsIQ = studentsIQ.OrderBy(s => s.Person);
+                        break;
+                }
+
+                KontaktpersonList = await studentsIQ.AsNoTracking().ToListAsync();
+            }*/
+    }
+            
             
             
             
@@ -148,5 +180,5 @@ namespace MalgreTout.Pages
 
 
         }
-    }
+ 
 

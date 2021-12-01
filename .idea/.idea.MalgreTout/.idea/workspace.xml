@@ -8,16 +8,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
+    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="Fået søg til at virke">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MalgreTout.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MalgreTout.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Kontaktperson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Kontaktperson.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Delete.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Postnumre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Postnumre.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Udleveringssted.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Udleveringssted.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/Test.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Test.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/Test.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Test.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Update.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Update.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/ViewAll.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ViewAll.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/ViewAll.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ViewAll.cshtml.cs" afterDir="false" />
     </list>
@@ -167,7 +168,7 @@
       <workItem from="1638276628943" duration="319000" />
       <workItem from="1638281576787" duration="699000" />
       <workItem from="1638302719299" duration="1787000" />
-      <workItem from="1638307189343" duration="5183000" />
+      <workItem from="1638307189343" duration="14775000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
@@ -267,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638304513626</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fået søg til at virke">
+      <created>1638312608650</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1638312608650</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,25 +312,7 @@
     <MESSAGE value="23" />
     <MESSAGE value="dsa" />
     <MESSAGE value="Fucking fikset Update!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fucking fikset Update!" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Pages/Update.cshtml.cs</url>
-          <line>56</line>
-          <properties documentPath="C:\Users\malth\Documents\GitHub\MalgreTout\Pages\Update.cshtml.cs" initialLine="56" containingFunctionPresentation="method 'OnPost'">
-            <startOffsets>
-              <option value="1779" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1780" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Fået søg til at virke" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fået søg til at virke" />
   </component>
 </project>
