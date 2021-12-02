@@ -13,21 +13,46 @@
         text-align:center;
         width:auto;
     }
+    p{
+        text-align:center;
+        
+    }
+    h2{
+        text-align:center;
+    }
+    .btn1{
+        background-color:green;
+        border:none;
+        float:left;
+        color: white;
+        padding: 8px 15px;
+        text-decoration:none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10%;
+    }
+    a1{
+        float:right;
+        display:inline-block;
+    }
+
 </style>
 <h2>MalgreToutDatabase</h2>
 
-@*<p>
+@*<h3>
     <a class="btn btn-outline-light" href="/Create">Opret ny</a>
-</p>*@
+</h3>*@
 
 <form>
     <p>
+        <a class="btn1 btn-outline-light" href="/Create">Opret ny</a>
         Søg navn: <input type="text" asp-for="SearchString" />
         @*$1$Mail: <input type="text" asp-for="SearchString" />#1#
         Virksomhed: <input type="text" asp-for="SearchString" />
         $1$Adresse: <input type="text" asp-for="SearchString" />#1#
         Bynavn: <input type="text" asp-for="SearchString" />*@
-        <input type="submit" value="Filter"/> | <a asp-page="./ViewAll"> Tilbage til liste</a>
+        <input type="submit" value="Filter" /> | <a asp-page="./ViewAll"> Tilbage til liste</a>
+        <a1> <input type="submit" style="direction:unset" value="Export til Excel" asp-page-handler="Export" /> </a1>
     </p>
 </form>
 
@@ -50,7 +75,7 @@
             @Html.DisplayName("Mail")
             
         </th>
-        <th>Opret | Ændre | Slet</th>
+        <th>Ændre | Slet</th>
         
         
     </tr>
@@ -73,7 +98,6 @@
                 @Html.DisplayFor(modelItem => item.Mail)
             </td>
             <td>
-                <a asp-page="./Create" asp-route-id="@item.Id" class="btn btn-success">Opret</a> |
                 <a asp-page="./Update" asp-route-id="@item.Id" class="btn btn-outline-light btn-primary">Ændre</a> |
                 <a asp-page="./ViewAll" onclick="return confirm
                                         ('Are you sure you want to delete this item?');"
@@ -115,7 +139,6 @@
                 @Html.DisplayFor(modelItem => item.Adresse)
             </td>
             <td>
-                <a asp-page="./Create" asp-route-id="@item.Id" class="btn btn-success">Opret</a> |
                 <a asp-page="./Update" asp-route-id="@item.Id" class="btn btn-primary">Ændre</a> |
                 <a asp-page="./ViewAll" onclick="return confirm
                         ('Are you sure you want to delete this item?');"
@@ -162,7 +185,6 @@
                 @Html.DisplayFor(modelItem => item.Bynavn)
             </td>
             <td>
-                <a asp-page="./Create" asp-route-id="@item.Id" class="btn btn-success">Opret</a> |
                 <a asp-page="./Update" asp-route-id="@item.Id" class="btn btn-primary">Ændre</a> |
                 <a asp-page="./ViewAll" onclick="return confirm
                         ('Are you sure you want to delete this item?');"
@@ -176,6 +198,6 @@
 <br />
 <br />
 <form method="post">
-    <input type="submit" value="Export til Excel" asp-page-handler="Export" />
+    <input  type="submit" value="Export til Excel" asp-page-handler="Export" />
 </form>
     
