@@ -8,65 +8,85 @@
     h3{
         text-decoration:wavy;
     }
+    .Opret-test {
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* The image used */
+        background-image: url("../images/malgretout.jpg");
+        /* Add the blur effect */
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        height: calc(100% + 60px);
+        width: calc(100% + 60px);
+        overflow: hidden;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #F4F4F4;
+        margin: -30px -30px -30px -30px;
+    }
 </style>
-<div class="container">
-    <h3>Opret</h3>
-    <hr/>
-    <br/>
+<div class="Opret-test"style="margin-top:-30px;"></div>
+<!----><div style="z-index: 100; position: relative;">
+    <h3 style="color:white">Opret</h3>
+    <hr />
+    <br />
     <form method="post">
 
         <div class="row">
             <div class="col-md-4">
-                <label asp-for="Udleveringssted.Virksomhed"></label>
-                <input asp-for="Udleveringssted.Virksomhed" class="form-control"/>
+                <label style="color:white"asp-for="Udleveringssted.Virksomhed"></label>
+                <input asp-for="Udleveringssted.Virksomhed" class="form-control"style="background-color:grey"/>
                 <span class="alert-danger" asp-validation-for="Udleveringssted.Virksomhed"></span>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <label asp-for="Udleveringssted.Adresse"></label>
-                <input asp-for="Udleveringssted.Adresse" class="form-control"/>
+                <label style="color:white"asp-for="Udleveringssted.Adresse"></label>
+                <input asp-for="Udleveringssted.Adresse" class="form-control"style="background-color:grey"/>
                 <span class="alert-danger" asp-validation-for="Udleveringssted.Adresse"></span>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <label asp-for="Postnumre.Postnr"></label>
-                <input asp-for="Postnumre.Postnr" class="form-control"/>
+                <label style="color:white"asp-for="Postnumre.Postnr"></label>
+                <input asp-for="Postnumre.Postnr" class="form-control"style="background-color:grey"/>
                 <span class="alert-danger" asp-validation-for="Postnumre.Postnr"></span>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <label asp-for="Postnumre.Bynavn"></label>
-                <input asp-for="Postnumre.Bynavn" class="form-control"/>
+                <label style="color:white"asp-for="Postnumre.Bynavn"></label>
+                <input asp-for="Postnumre.Bynavn" class="form-control"style="background-color:grey"/>
                 <span class="alert-danger" asp-validation-for="Postnumre.Bynavn"></span>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <label asp-for="Kontaktperson.Person"></label>
-                <input asp-for="Kontaktperson.Person" class="form-control"/>
+                <label style="color:white"asp-for="Kontaktperson.Person"></label>
+                <input asp-for="Kontaktperson.Person" class="form-control"style="background-color:grey"/>
                 <span class="alert-danger" asp-validation-for="Kontaktperson.Person"></span>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <label asp-for="Kontaktperson.Tlf"></label>
-                <input asp-for="Kontaktperson.Tlf" class="form-control"/>
+                <label style="color:white"asp-for="Kontaktperson.Tlf"></label>
+                <input asp-for="Kontaktperson.Tlf" class="form-control"style="background-color:grey"/>
                 <span class="alert-danger" asp-validation-for="Kontaktperson.Tlf"></span>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <label asp-for="Kontaktperson.Mail"></label>
-                <input asp-for="Kontaktperson.Mail" cl class="form-control"/>
+                <label style="color:white"asp-for="Kontaktperson.Mail"></label>
+                <input asp-for="Kontaktperson.Mail" cl class="form-control"style="background-color:grey"/>
                 <span class="alert-danger" asp-validation-for="Kontaktperson.Mail"></span>
             </div>
         </div>
@@ -75,5 +95,6 @@
         <input type="submit" value="Gem" class="btn btn-success"/>
         <a class="btn btn-primary" href="/ViewAll">Afbryd</a>
     </form>
-</div>
+    </divstyle="z-index:>
+<script>document.body.style.backgroundImage = 'none';</script>
     
