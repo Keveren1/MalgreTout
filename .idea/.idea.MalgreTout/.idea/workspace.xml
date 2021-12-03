@@ -10,6 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/ViewAll.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ViewAll.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +170,8 @@
       <workItem from="1638528023940" duration="96000" />
       <workItem from="1638528225340" duration="101000" />
       <workItem from="1638528387412" duration="879000" />
+      <workItem from="1638539562420" duration="3069000" />
+      <workItem from="1638544526600" duration="806000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
