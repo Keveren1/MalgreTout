@@ -9,9 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ViewAll.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ViewAll.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97910d1c0746186c7f47fba02fcc81f704f26e2b" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +169,7 @@
       <workItem from="1638528225340" duration="101000" />
       <workItem from="1638528387412" duration="879000" />
       <workItem from="1638539562420" duration="3069000" />
-      <workItem from="1638544526600" duration="806000" />
+      <workItem from="1638544526600" duration="1125000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
@@ -292,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638353526530</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Prøvet med view all table">
+      <created>1638545651913</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1638545651913</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +335,7 @@
     <MESSAGE value="Fået søg til at virke" />
     <MESSAGE value="Små ændringer" />
     <MESSAGE value="Småting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Småting" />
+    <MESSAGE value="Prøvet med view all table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prøvet med view all table" />
   </component>
 </project>
