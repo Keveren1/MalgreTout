@@ -11,10 +11,10 @@
 </style>
 <div class="container">
     <h3>Opret</h3>
-    <hr />
-    <br />
+    <hr/>
+    <br/>
     <form method="post">
-        
+
         <div class="row">
             <div class="col-md-4">
                 <label asp-for="Udleveringssted.Virksomhed"></label>
@@ -22,7 +22,7 @@
                 <span class="alert-danger" asp-validation-for="Udleveringssted.Virksomhed"></span>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col-md-4">
                 <label asp-for="Udleveringssted.Adresse"></label>
@@ -30,7 +30,7 @@
                 <span class="alert-danger" asp-validation-for="Udleveringssted.Adresse"></span>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col-md-4">
                 <label asp-for="Postnumre.Postnr"></label>
@@ -38,7 +38,7 @@
                 <span class="alert-danger" asp-validation-for="Postnumre.Postnr"></span>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col-md-4">
                 <label asp-for="Postnumre.Bynavn"></label>
@@ -46,7 +46,7 @@
                 <span class="alert-danger" asp-validation-for="Postnumre.Bynavn"></span>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col-md-4">
                 <label asp-for="Kontaktperson.Person"></label>
@@ -54,7 +54,7 @@
                 <span class="alert-danger" asp-validation-for="Kontaktperson.Person"></span>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col-md-4">
                 <label asp-for="Kontaktperson.Tlf"></label>
@@ -70,10 +70,10 @@
                 <span class="alert-danger" asp-validation-for="Kontaktperson.Mail"></span>
             </div>
         </div>
-        
+
         <br/>
         <input type="submit" value="Gem" class="btn btn-success"/>
         <a class="btn btn-primary" href="/ViewAll">Afbryd</a>
     </form>
-    </div>
+</div>
     

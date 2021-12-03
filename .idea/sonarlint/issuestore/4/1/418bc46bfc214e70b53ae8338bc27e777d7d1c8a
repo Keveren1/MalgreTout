@@ -1,0 +1,4 @@
+
+zcsharpsquid:S101
+"YRename class 'kevinModel' to match pascal case naming rules, consider using 'KevinModel'.(´¶Ô³ÿÿÿÿÿ
+–csharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(ÌëÓÇ

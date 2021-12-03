@@ -9,6 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/1301ee5446ecbaa31452d0ce5949a54e52dde224" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f36f127a569d12eb918e1ac1f919bb4082f7cfb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/226f5a2c7775af93e71e3d959b69318017f5a1c3" beforeDir="false" />
@@ -18,6 +19,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8f6290b91be7e6659209c48ddc505a8b84c6cab" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2561f8c50dfc26754fb5632816fe7b2f2d32566" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +174,7 @@
       <workItem from="1638360872257" duration="54000" />
       <workItem from="1638360968350" duration="783000" />
       <workItem from="1638391560329" duration="174000" />
+      <workItem from="1638391824017" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="Models">
       <created>1637582098304</created>
