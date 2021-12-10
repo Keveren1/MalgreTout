@@ -1,3 +1,4 @@
+/*
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,7 +39,7 @@ namespace MalgreTout.Pages
 
             return KontaktpersonList.Where(e =>
                 e.Person.Contains(SearchTerm) || e.Mail.Contains(SearchTerm));
-        }*/
+        }#1#
 
             /*public void OnGet()
         {
@@ -56,7 +57,7 @@ namespace MalgreTout.Pages
             PostnumreList = data3;
 
             
-        }*/
+        }#1#
         
         
         
@@ -73,10 +74,10 @@ namespace MalgreTout.Pages
                 kontaktpeople = kontaktpeople.Where(s => s.Person.Contains(SearchString));
             }
 
-            Kontaktperson = await kontaktpeople.ToListAsync();*/
+            Kontaktperson = await kontaktpeople.ToListAsync();#1#
             
             
-        /*public IList<Kontaktperson> Kontaktperson { get; set; }*/
+        /*public IList<Kontaktperson> Kontaktperson { get; set; }#1#
         
         [BindProperty(SupportsGet = true)] 
         public string SearchString { get; set; }
@@ -132,7 +133,7 @@ namespace MalgreTout.Pages
                 }
 
                 KontaktpersonList = await studentsIQ.AsNoTracking().ToListAsync();
-            }*/
+            }#1#
     }
             
             
@@ -148,7 +149,7 @@ namespace MalgreTout.Pages
                 }
 
                 Movie = await movies.ToListAsync();
-            }*/
+            }#1#
             
 
 
@@ -175,10 +176,11 @@ namespace MalgreTout.Pages
    
                Kontaktperson = await kontaktpeople.ToListAsync();
    
-           }*/
+           }#1#
 
 
 
         }
+        */
  
 
