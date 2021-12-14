@@ -8,7 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="" />
+    <list default="true" id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Delete.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Delete.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Test.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Test.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +21,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -98,6 +100,7 @@
       <workItem from="1639092948007" duration="192000" />
       <workItem from="1639170927088" duration="235000" />
       <workItem from="1639171553987" duration="1813000" />
+      <workItem from="1639520246029" duration="939000" />
     </task>
     <task id="LOCAL-00001" summary="Masse ændringer">
       <created>1639171680981</created>

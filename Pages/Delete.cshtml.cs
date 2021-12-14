@@ -10,17 +10,6 @@ namespace MalgreTout.Pages
 {
     public class DeleteModel : PageModel
     {
-        /*private readonly ContosoUniversity.Data.SchoolContext _context;
-        private readonly ILogger<DeleteModel> _logger;
-
-        public DeleteModel(ContosoUniversity.Data.SchoolContext context,
-                           ILogger<DeleteModel> logger)
-        {
-            _context = context;
-            _logger = logger;
-        }*/
-        
-        //Dependency Injection
         Malgretout_DataContext _Context;
         private readonly ILogger<DeleteModel> _logger;
         
