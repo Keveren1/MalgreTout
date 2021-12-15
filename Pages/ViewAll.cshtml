@@ -8,124 +8,160 @@
         /*background-color: #A9A9A9;*/
         background-color: #696969;
     }
+
     th, td {
         border: 1px solid white;
-        text-align:center;
-        width:auto;
+        text-align: center;
+        width: auto;
     }
-    p{
-        text-align:center;
-        
+
+    p {
+        text-align: center;
     }
-    h2{
-        text-align:center;
+
+    h2 {
+        text-align: center;
     }
-    .btn1{
-        background-color:green;
-        border:none;
-        float:left;
+
+    .btn1 {
+        /*background-color: #04AA6D;*/
+        border: none;
+        float: left;
         color: white;
-        padding: 8px 15px;
-        text-decoration:none;
+        padding: 5px 10px;
+        text-decoration: none;
         display: inline-block;
         font-size: 16px;
         border-radius: 10%;
     }
-    a1{
-        float:right;
-        display:inline-block;
-    }
-    a{
-       text-decoration: none;
+
+    a1 {
+        float: right;
+        display: inline-block;
     }
 
+    a {
+        text-decoration: none;
+    }
+    p {
+        text-align: center;
+        color: white;
+        outline-color: white;
+    }
+    .hej{
+        align-content:flex-start;
+        flex-direction: row;
+    }
+    form1{
+        float:right;
+    }
 </style>
-<h2>MalgreToutDatabase</h2>
+<div class="hej">
+    <p>Malgré Tout Database</p>
+    <form method="post">
+        <a1><input type="submit" value="Export til Excel" asp-page-handler="Export"></a1>
+    </form>
+</div>
 
 
 <form asp-page="./ViewAll" method="get">
     <div class="form-actions no-color">
         <p>
-            Find efter navn:
-            <a class="btn1 btn-outline-light" href="/Create">Opret ny</a>
-            <input type="text" name="SearchString" value="@Model.CurrentFilter" />
+            <a class="btn1 btn-success" href="/Create">Opret ny</a>
+            <input type="text" placeholder="Hvad søger du?" name="SearchString" value="@Model.CurrentFilter" />
             <input type="submit" value="Søg" /> |
-            <a style="color:#212529" asp-page="./ViewAll">Tilbage til liste</a>
-            <a1> <input type="submit" style="direction:unset" value="Export til Excel" asp-page-handler="Export" /> </a1>
+            <a style="color: white;" asp-page="./ViewAll">Tilbage til liste</a>
+            @*<a1> <input type="submit" style="direction:unset" value="Export til Excel" asp-page-handler="Export" /> </a1>*@
         </p>
     </div>
 </form>
 
 
 @*<form method="post">
-    <input  type="submit" value="Export til Excel" asp-page-handler="Export" />
+    <input class="line" type="submit" value="Export til Excel" asp-page-handler="Export" />
 </form>*@
+@*<div>
+    <form asp-page="./ViewAll" method="get">
+        <div class="form-actions no-color">
+            <p>
+                Find efter navn:
+                <a class="btn1 btn-outline-light" href="/Create">Opret ny</a>
+                <input type="text" name="SearchString" value="@Model.CurrentFilter" />
+                <input type="submit" value="Søg" /> |
+                <a style="color:#212529" asp-page="./ViewAll">Tilbage til liste</a>
+            <a1> <input type="submit" style="direction:unset" value="Export til Excel" asp-page-handler="Export" /> </a1>
+            </p>
+        </div>
+    </form>
+    </div>*@
+
+@*<form method="post">
+        <input  type="submit" value="Export til Excel" asp-page-handler="Export" />
+    </form>*@
 
 
 <table class="table table-dark">
     <thead>
-    <tr>
-        
-        @*<th>
-            <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.IdSort">
-                @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Id)
-            </a>
-        </th>*@
-
-        <th>
-            <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.VirksomhedSort">
-                @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Virksomhed)
-            </a>
-        </th>
-
-        <th>
-            <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.AdresseSort">
-                @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Adresse)
-            </a>
-        </th>
-
-        <th>
-            <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.PostnrSort">
-                @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Postnr)
-            </a>
-        </th>
-
-        <th>
-            <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.BynavnSort">
-                @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Bynavn)
-            </a>
-        </th>
-
-        <th>
-            <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.PersonSort">
-                @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Person)
-            </a>
-        </th>
-
-        <th>
-            <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.TlfSort">
-                @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Tlf)
-            </a>
-        </th>
-
-        <th>
-            <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.MailSort">
-                @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Mail)
-            </a>
-        </th>
-        
-        <th>Ændre | Slet</th>
-        
-    </tr>
-    </thead>
-    
-    <tbody>
-    @foreach (var item in Model.NewAllUdleveringssted)
-    {
         <tr>
+
+            @*<th>
+                    <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.IdSort">
+                        @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Id)
+                    </a>
+                </th>*@
+
+            <th>
+                <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.VirksomhedSort">
+                    @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Virksomhed)
+                </a>
+            </th>
+
+            <th>
+                <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.AdresseSort">
+                    @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Adresse)
+                </a>
+            </th>
+
+            <th>
+                <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.PostnrSort">
+                    @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Postnr)
+                </a>
+            </th>
+
+            <th>
+                <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.BynavnSort">
+                    @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Bynavn)
+                </a>
+            </th>
+
+            <th>
+                <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.PersonSort">
+                    @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Person)
+                </a>
+            </th>
+
+            <th>
+                <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.TlfSort">
+                    @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Tlf)
+                </a>
+            </th>
+
+            <th>
+                <a style="color:white" asp-page="./ViewAll" asp-route-sortOrder="@Model.MailSort">
+                    @Html.DisplayNameFor(model => model.NewAllUdleveringssted[0].Mail)
+                </a>
+            </th>
+                <th >Ændre | Slet </th>          
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model.NewAllUdleveringssted)
+        {
+            <tr>
                 @*<td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>*@
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>*@
                 <td>
                     @Html.DisplayFor(modelItem => item.Virksomhed)
                 </td>
@@ -154,12 +190,12 @@
                        asp-page-handler="Delete" asp-route-id="@item.Id" class="btn btn-danger">Slet</a>
                 </td>
             </tr>
-    }
-    
+        }
+
     </tbody>
 </table>
 
-<form method="post">
-    <input  type="submit" value="Export til Excel" asp-page-handler="Export" />
-</form>
-    
+<form1 method="post">
+    <input type="submit" value="Export til Excel" asp-page-handler="Export" />
+</form1>
+

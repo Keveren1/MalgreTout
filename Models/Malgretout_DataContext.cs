@@ -14,14 +14,14 @@ namespace MalgreTout.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
+            if (!optionsBuilder.IsConfigured) {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=MalgreTout;Integrated Security=False;Persist Security Info=False;");
+                optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB;Initial Catalog = MaigreTout; Integrated Security=False;Persist Security Info=False;");
             }
         }
+                            //Data Source = (localdb)\MSSQLLocalDB;Initial Catalog = MaigreTout; Integrated Security = True; Connect Timeout = 30; Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
 
-        
+
         /*optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=MalgreTout;Integrated Security=False;Trust Server Certificate=True;Command Timeout=30");
         optionsBuilder.UseSqlServer("Data Source=malgretoutnew.database.windows.net; Initial Catalog=MalgreTout;User ID=Malthe;Password=Zealand123; Integrated Security=False;Persist Security Info=False;");*/
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -1,0 +1,1 @@
+﻿INSERT INTO NewAllUdleveringssted VALUES ('Er eller andet der', 'Pik', 3300, 'kfasijgwje', 'hejsa', 92123523, 'dsafafsmail@lol.dk' );
