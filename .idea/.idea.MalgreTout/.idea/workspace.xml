@@ -8,9 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,38 +17,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="4" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="21GrOqSYYFtfhOumQSgVeWcWtNW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="21yGXnbcyYsVSNKHjsMbOqbSSJO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34955752" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;sqlserver.localdb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -63,7 +41,7 @@
   <component name="RunManager" selected=".NET Launch Settings Profile.MalgreTout">
     <configuration name="MalgreTout" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MalgreTout.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
       <option name="LAUNCH_PROFILE_NAME" value="MalgreTout" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -78,7 +56,7 @@
     </configuration>
     <configuration name="MalgreTout: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MalgreTout.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
       <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -95,206 +73,41 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7b7bc227-ab55-4be6-a22d-3324d03f1c12" name="Changes" comment="En del ændringer" />
-      <created>1637578246752</created>
+      <changelist id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="" />
+      <created>1638905958265</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1637578246752</updated>
-      <workItem from="1637578266072" duration="2895000" />
-      <workItem from="1637587520250" duration="79000" />
-      <workItem from="1637765192996" duration="1845000" />
-      <workItem from="1637782508121" duration="7915000" />
-      <workItem from="1637790728096" duration="12000" />
-      <workItem from="1637848676465" duration="1251000" />
-      <workItem from="1637852730027" duration="613000" />
-      <workItem from="1638037075599" duration="456000" />
-      <workItem from="1638037650878" duration="3559000" />
-      <workItem from="1638041270101" duration="6085000" />
-      <workItem from="1638126256969" duration="633000" />
-      <workItem from="1638126961876" duration="431000" />
-      <workItem from="1638127420294" duration="124000" />
-      <workItem from="1638127566195" duration="273000" />
-      <workItem from="1638127938507" duration="556000" />
-      <workItem from="1638128536520" duration="582000" />
-      <workItem from="1638129168607" duration="163000" />
-      <workItem from="1638129367501" duration="53000" />
-      <workItem from="1638129501438" duration="130000" />
-      <workItem from="1638129682846" duration="64000" />
-      <workItem from="1638130450282" duration="40000" />
-      <workItem from="1638130532154" duration="62000" />
-      <workItem from="1638130766180" duration="730000" />
-      <workItem from="1638133402910" duration="221000" />
-      <workItem from="1638133654507" duration="298000" />
-      <workItem from="1638133975882" duration="808000" />
-      <workItem from="1638135239977" duration="177000" />
-      <workItem from="1638135432974" duration="229000" />
-      <workItem from="1638135678783" duration="167000" />
-      <workItem from="1638135858106" duration="57000" />
-      <workItem from="1638135988626" duration="94000" />
-      <workItem from="1638136667692" duration="194000" />
-      <workItem from="1638136991996" duration="68000" />
-      <workItem from="1638137611943" duration="42000" />
-      <workItem from="1638137678157" duration="1399000" />
-      <workItem from="1638140034871" duration="3000" />
-      <workItem from="1638141803886" duration="34000" />
-      <workItem from="1638142915329" duration="5291000" />
-      <workItem from="1638192284193" duration="25518000" />
-      <workItem from="1638220069388" duration="4000" />
-      <workItem from="1638224005231" duration="3687000" />
-      <workItem from="1638227897972" duration="6466000" />
-      <workItem from="1638261732965" duration="50000" />
-      <workItem from="1638261802825" duration="7289000" />
-      <workItem from="1638269997813" duration="1021000" />
-      <workItem from="1638271131468" duration="1017000" />
-      <workItem from="1638272179338" duration="793000" />
-      <workItem from="1638272999136" duration="3567000" />
-      <workItem from="1638276628943" duration="319000" />
-      <workItem from="1638281576787" duration="699000" />
-      <workItem from="1638302719299" duration="1787000" />
-      <workItem from="1638307189343" duration="14930000" />
-      <workItem from="1638344294864" duration="463000" />
-      <workItem from="1638344794265" duration="7436000" />
-      <workItem from="1638355295748" duration="1151000" />
-      <workItem from="1638360872257" duration="54000" />
-      <workItem from="1638360968350" duration="783000" />
-      <workItem from="1638391560329" duration="174000" />
-      <workItem from="1638391824017" duration="627000" />
-      <workItem from="1638528023940" duration="96000" />
-      <workItem from="1638528225340" duration="101000" />
-      <workItem from="1638528387412" duration="879000" />
-      <workItem from="1638539562420" duration="3069000" />
-      <workItem from="1638544526600" duration="1125000" />
-      <workItem from="1638550838319" duration="1389000" />
-      <workItem from="1638568558359" duration="332000" />
-      <workItem from="1638569099551" duration="323000" />
+      <updated>1638905958265</updated>
+      <workItem from="1638905982329" duration="5392000" />
+      <workItem from="1638915251126" duration="3513000" />
+      <workItem from="1638960148952" duration="11459000" />
+      <workItem from="1638974081126" duration="741000" />
+      <workItem from="1638974939293" duration="74000" />
+      <workItem from="1638975094860" duration="122000" />
+      <workItem from="1639078768757" duration="16000" />
+      <workItem from="1639078819244" duration="611000" />
+      <workItem from="1639085526751" duration="2811000" />
+      <workItem from="1639088757763" duration="299000" />
+      <workItem from="1639092434157" duration="91000" />
+      <workItem from="1639092948007" duration="192000" />
+      <workItem from="1639170927088" duration="235000" />
+      <workItem from="1639171553987" duration="1813000" />
     </task>
-    <task id="LOCAL-00001" summary="Models">
-      <created>1637582098304</created>
+    <task id="LOCAL-00001" summary="Masse ændringer">
+      <created>1639171680981</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1637582098304</updated>
+      <updated>1639171680981</updated>
     </task>
-    <task id="LOCAL-00002" summary="Små ændringer">
-      <created>1637767036312</created>
+    <task id="LOCAL-00002" summary="Samlet alting">
+      <created>1639173361656</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1637767036312</updated>
+      <updated>1639173361656</updated>
     </task>
-    <task id="LOCAL-00003" summary="Fået view og create til at virke">
-      <created>1637790674395</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1637790674395</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Små rettelser">
-      <created>1637849852215</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1637849852215</updated>
-    </task>
-    <task id="LOCAL-00005" summary="test">
-      <created>1638041199751</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1638041199751</updated>
-    </task>
-    <task id="LOCAL-00006" summary="tt">
-      <created>1638045868126</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1638045868126</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Test">
-      <created>1638135903934</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1638135903934</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Fikset">
-      <created>1638142985038</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1638142985038</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Tilføjet den fulde database">
-      <created>1638219890051</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1638219890051</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Små ting">
-      <created>1638227659886</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1638227659886</updated>
-    </task>
-    <task id="LOCAL-00011" summary="tt">
-      <created>1638234097926</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1638234097926</updated>
-    </task>
-    <task id="LOCAL-00012" summary="23">
-      <created>1638269455851</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1638269455851</updated>
-    </task>
-    <task id="LOCAL-00013" summary="dsa">
-      <created>1638276582945</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1638276582945</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Fucking fikset Update!">
-      <created>1638304513626</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1638304513626</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Fået søg til at virke">
-      <created>1638312608650</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1638312608650</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Små ændringer">
-      <created>1638322154150</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1638322154150</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Småting">
-      <created>1638353526530</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1638353526530</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Prøvet med view all table">
-      <created>1638545651913</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1638545651913</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,24 +128,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Models" />
-    <MESSAGE value="Fået view og create til at virke" />
-    <MESSAGE value="Små rettelser" />
-    <MESSAGE value="test" />
-    <MESSAGE value="Test" />
-    <MESSAGE value="Fikset" />
-    <MESSAGE value="Tilføjet den fulde database" />
-    <MESSAGE value="Små ting" />
-    <MESSAGE value="tt" />
-    <MESSAGE value="23" />
-    <MESSAGE value="dsa" />
-    <MESSAGE value="Fucking fikset Update!" />
-    <MESSAGE value="Fået søg til at virke" />
-    <MESSAGE value="Små ændringer" />
-    <MESSAGE value="Småting" />
-    <MESSAGE value="Prøvet med view all table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prøvet med view all table" />
+    <MESSAGE value="Masse ændringer" />
+    <MESSAGE value="Samlet alting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Samlet alting" />
   </component>
 </project>

@@ -1,10 +1,10 @@
 ﻿@page
 @using MalgreTout.Models @*namespace*@
 @model Create
-<script src="~/lib/jquery/dist/jquery.js"></script>
+@*<script src="~/lib/jquery/dist/jquery.js"></script>
 <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
-<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
-<style>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>*@
+@*<style>
     h3{
         text-decoration:wavy;
     }
@@ -32,62 +32,70 @@
 <!----><div style="z-index: 100; position: relative;">
     <h3 style="color:white">Opret</h3>
     <hr />
+    <br />*@
+
+
+@*<h3> style="color:white"> Opret Ny</h3>
+<h3 style="font-size:300%;">Size of the first text</h3>*@
+
+<div class="container">
+    <h3 style="color:White;">Opret Ny</h3>
+    <hr />
     <br />
     <form method="post">
-
         <div class="row">
             <div class="col-md-4">
-                <label style="color:white"asp-for="Udleveringssted.Virksomhed"></label>
-                <input asp-for="Udleveringssted.Virksomhed" class="form-control"style="background-color:grey"/>
-                <span class="alert-danger" asp-validation-for="Udleveringssted.Virksomhed"></span>
+                <label style="color:White"asp-for="NewAllUdleveringssted.Virksomhed"></label>
+                <input asp-for="NewAllUdleveringssted.Virksomhed" class="form-control"/>
+                <span class="alert-danger" asp-validation-for="NewAllUdleveringssted.Virksomhed"></span>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <label style="color:white"asp-for="Udleveringssted.Adresse"></label>
-                <input asp-for="Udleveringssted.Adresse" class="form-control"style="background-color:grey"/>
-                <span class="alert-danger" asp-validation-for="Udleveringssted.Adresse"></span>
+                <label style="color:white"asp-for="NewAllUdleveringssted.Adresse"></label>
+                <input asp-for="NewAllUdleveringssted.Adresse" class="form-control"/>
+                <span class="alert-danger" asp-validation-for="NewAllUdleveringssted.Adresse"></span>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <label style="color:white"asp-for="Postnumre.Postnr"></label>
-                <input asp-for="Postnumre.Postnr" class="form-control"style="background-color:grey"/>
-                <span class="alert-danger" asp-validation-for="Postnumre.Postnr"></span>
+                <label style="color:white"asp-for="NewAllUdleveringssted.Postnr"></label>
+                <input asp-for="NewAllUdleveringssted.Postnr" class="form-control"/>
+                <span class="alert-danger" asp-validation-for="NewAllUdleveringssted.Postnr"></span>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <label style="color:white"asp-for="Postnumre.Bynavn"></label>
-                <input asp-for="Postnumre.Bynavn" class="form-control"style="background-color:grey"/>
-                <span class="alert-danger" asp-validation-for="Postnumre.Bynavn"></span>
+                <label style="color:white"asp-for="NewAllUdleveringssted.Bynavn"></label>
+                <input asp-for="NewAllUdleveringssted.Bynavn" class="form-control"/>
+                <span class="alert-danger" asp-validation-for="NewAllUdleveringssted.Bynavn"></span>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <label style="color:white"asp-for="Kontaktperson.Person"></label>
-                <input asp-for="Kontaktperson.Person" class="form-control"style="background-color:grey"/>
-                <span class="alert-danger" asp-validation-for="Kontaktperson.Person"></span>
+                <label style="color:white"asp-for="NewAllUdleveringssted.Person"></label>
+                <input asp-for="NewAllUdleveringssted.Person" class="form-control"/>
+                <span class="alert-danger" asp-validation-for="NewAllUdleveringssted.Person"></span>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <label style="color:white"asp-for="Kontaktperson.Tlf"></label>
-                <input asp-for="Kontaktperson.Tlf" class="form-control"style="background-color:grey"/>
-                <span class="alert-danger" asp-validation-for="Kontaktperson.Tlf"></span>
+                <label style="color:white"asp-for="NewAllUdleveringssted.Tlf"></label>
+                <input asp-for="NewAllUdleveringssted.Tlf" class="form-control"/>
+                <span class="alert-danger" asp-validation-for="NewAllUdleveringssted.Tlf"></span>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <label style="color:white"asp-for="Kontaktperson.Mail"></label>
-                <input asp-for="Kontaktperson.Mail" cl class="form-control"style="background-color:grey"/>
-                <span class="alert-danger" asp-validation-for="Kontaktperson.Mail"></span>
+                <label style="color:white"asp-for="NewAllUdleveringssted.Mail"></label>
+                <input asp-for="NewAllUdleveringssted.Mail" cl class="form-control"/>
+                <span class="alert-danger" asp-validation-for="NewAllUdleveringssted.Mail"></span>
             </div>
         </div>
 
@@ -95,6 +103,7 @@
         <input type="submit" value="Gem" class="btn btn-success"/>
         <a class="btn btn-primary" href="/ViewAll">Afbryd</a>
     </form>
-    </divstyle="z-index:>
-<script>document.body.style.backgroundImage = 'none';</script>
+</div>
+    @*</divstyle="z-index:>
+<script>document.body.style.backgroundImage = 'none';</script>*@
     

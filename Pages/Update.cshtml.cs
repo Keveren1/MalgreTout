@@ -22,34 +22,19 @@ namespace MalgreTout.Pages
         
         
         [BindProperty]
-        public Kontaktperson Kontaktperson { get; set; }
-        [BindProperty]
-        public Udleveringssted Udleveringssted { get; set; }
-        [BindProperty]
-        public Postnumre Postnumre { get; set; }
-        
-        
+        public NewAllUdleveringssted NewAllUdleveringssted { get; set; }
+      
         
         //Indhenter data fra felter
         public void OnGet(int? id)
         {
             if (id != null)
             {
-                var kontaktData = (from kontaktperson in _Context.Kontaktperson
-                            where kontaktperson.Id == id
-                            select kontaktperson).SingleOrDefault();
+                var newAllUdleveringsstedData = (from newAllUdleveringssted in _Context.NewAllUdleveringssted
+                            where newAllUdleveringssted.Id == id
+                            select newAllUdleveringssted).SingleOrDefault();
                 
-                var udleveringData = (from udleveringssted in _Context.Udleveringssted
-                    where udleveringssted.Id == id
-                    select udleveringssted).SingleOrDefault();
-                
-                var postData = (from postnumre in _Context.Postnumre
-                    where postnumre.Id == id
-                    select postnumre).SingleOrDefault();
-                
-                Kontaktperson = kontaktData;
-                Udleveringssted = udleveringData;
-                Postnumre = postData;
+                NewAllUdleveringssted = newAllUdleveringsstedData;
             }
         }
         
@@ -57,22 +42,22 @@ namespace MalgreTout.Pages
         //Gemmer ændringer til felter 
         public ActionResult OnPost()
         {
-            var kontaktperson = Kontaktperson;
-            var udleveringssted = Udleveringssted;
-            var postnumre = Postnumre;
+            
+            var newAllUdleveringsstedData = NewAllUdleveringssted;
+            
             
             if (!ModelState.IsValid)
             {
                 return Page();
             }
             
-            _Context.Entry(udleveringssted).Property(x => x.Virksomhed).IsModified = true;
-            _Context.Entry(udleveringssted).Property(x => x.Adresse).IsModified = true;
-            _Context.Entry(kontaktperson).Property(x => x.Person).IsModified = true;
-            _Context.Entry(kontaktperson).Property(x => x.Tlf).IsModified = true;
-            _Context.Entry(kontaktperson).Property(x => x.Mail).IsModified = true;
-            _Context.Entry(postnumre).Property(x => x.Postnr).IsModified = true;
-            _Context.Entry(postnumre).Property(x => x.Bynavn).IsModified = true;
+            _Context.Entry(newAllUdleveringsstedData).Property(x => x.Virksomhed).IsModified = true;
+            _Context.Entry(newAllUdleveringsstedData).Property(x => x.Adresse).IsModified = true;
+            _Context.Entry(newAllUdleveringsstedData).Property(x => x.Person).IsModified = true;
+            _Context.Entry(newAllUdleveringsstedData).Property(x => x.Tlf).IsModified = true;
+            _Context.Entry(newAllUdleveringsstedData).Property(x => x.Mail).IsModified = true;
+            _Context.Entry(newAllUdleveringsstedData).Property(x => x.Postnr).IsModified = true;
+            _Context.Entry(newAllUdleveringsstedData).Property(x => x.Bynavn).IsModified = true;
             _Context.SaveChanges();
             
             return RedirectToPage("ViewAll");

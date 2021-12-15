@@ -1,97 +1,28 @@
-﻿@page "{searchString?}"
-@using MalgreTout.Models
-@model Test
+﻿@page
+<!DOCTYPE html>
 
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Text Center</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+            body 
+            h1
+            {
+                font-size: 5em;
+                margin:0;
+                padding: 0;
+                text-align: 'arial';
+                position:absolute;
+                top: 1000%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        </style>
+</head>
+<body>
+<h1><a style="color:white" href="/ViewAll" class="block">Gå til Database </a></h1>
 
-@*@{
-    ViewData["Person"] = "KontaktpersonList";
-}*@
-
-<h2>Kontaktperson</h2>
-
-<p>
-    <a asp-page="Create">Opret ny</a>
-</p>
-
-<form>
-    <p>
-        Søg navn: <input type="text" asp-for="SearchString" />
-        @*$1$Mail: <input type="text" asp-for="SearchString" />#1#
-        Virksomhed: <input type="text" asp-for="SearchString" />
-        $1$Adresse: <input type="text" asp-for="SearchString" />#1#
-        Bynavn: <input type="text" asp-for="SearchString" />*@
-        <input type="submit" value="Filter" /> | <a asp-page="./ViewAll">Back to full List</a>
-    </p>
-</form>
-
-@*<form metod="get">
-    <div class="input-group">
-        <input class="form-control" asp-for="SearchTerm" />
-        <div class="input-group-append">
-            <button type="submit" class="btn btn-primary">Search</button>
-        </div>
-
-    </div>
-</form>*@
-
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary">Klik Mig</a>
-
-
-
-<table class="table table-dark">
-    <thead>
-    <tr>
-        
-        @*<th>
-            @Html.DisplayNameFor(model => model.KontaktpersonList[0].Person)
-        </th>*@
-        <th>
-            @Html.DisplayName("Id")
-        </th>
-        <th>
-                    <a asp-page="./Test" asp-route-sortOrder="@Model.NameSort">
-                        @Html.DisplayNameFor(model => model.KontaktpersonList[0].Person)
-                    </a>
-                </th>
-        <th>
-            @Html.DisplayName("TLF")
-        </th>
-        <th>
-            @Html.DisplayName("Mail")
-        </th>
-
-        <td>
-            @Html.DisplayNameFor(Model => Model.KontaktpersonList[0].Person)
-        </td>
-
-
-        <th>Edit | Delete</th>
-    </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.KontaktpersonList)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Person)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Tlf)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Mail)
-                </td>
-
-            </tr>
-        }
-    </tbody>
-</table>
-<br />
-<br />
-<form method="post">
-    <input type="submit" value="Export til Excel" asp-page-handler="Export" />
-</form>
-
+</body>
+</html>

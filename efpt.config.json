@@ -14,15 +14,11 @@
    "SelectedToBeGenerated": 0,
    "Tables": [
       {
-         "Name": "[dbo].[Kontaktperson]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[Udleveringssted]",
+         "Name": "[dbo].[NewAllUdleveringssted]",
          "ObjectType": 0
       }
    ],
-   "UiHint": "malgretout.malgretout_data",
+   "UiHint": "(localdb)\\MSSQLLocalDB.MalgreTout",
    "UseBoolPropertiesWithoutDefaultSql": false,
    "UseDatabaseNames": true,
    "UseDbContextSplitting": false,
