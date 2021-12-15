@@ -41,7 +41,8 @@ namespace MalgreTout.Pages
         
         public IList<NewAllUdleveringssted> NewAllUdleveringssted { get; set; }
         
-        
+        [BindProperty]
+        public NewAllUdleveringssted NewAllUdleveringssteds { get; set; }
         
         public async Task OnGetAsync(string sortOrder, string searchString)
         {
@@ -138,7 +139,7 @@ namespace MalgreTout.Pages
 
 
         //Delete metode
-        public ActionResult OnGetDelete(int? id)
+        /*public ActionResult OnGetDelete(int? id)
         {
             if (id != null)
             {
@@ -151,7 +152,7 @@ namespace MalgreTout.Pages
             
 
             return RedirectToPage("ViewAll");
-        }
+        }*/
         
         
         

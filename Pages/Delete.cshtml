@@ -1,0 +1,73 @@
+﻿@page
+@using MalgreTout.Models
+@model DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<style>
+    a{
+       text-decoration: none;
+     }
+        
+</style>
+<h1 style="color:White;"> Slet</h1>
+
+<p class="text-danger">@Model.ErrorMessage</p>
+
+<h3 style="color:White;"> Er du sikker på at du gerne vil slette dette?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt style="color:white" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NewAllUdleveringssted.Virksomhed)
+        </dt>
+        <dd style="color:white" class="col-sm-10">
+            @Html.DisplayFor(model => model.NewAllUdleveringssted.Virksomhed)
+        </dd>
+        <dt style="color:white"  class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NewAllUdleveringssted.Adresse)
+        </dt>
+        <dd style="color:white" class="col-sm-10">
+            @Html.DisplayFor(model => model.NewAllUdleveringssted.Adresse)
+        </dd>
+        <dt style="color:white" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NewAllUdleveringssted.Postnr)
+        </dt>
+        <dd style="color:white" class="col-sm-10">
+            @Html.DisplayFor(model => model.NewAllUdleveringssted.Postnr)
+        </dd>
+        <dt style="color:white" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NewAllUdleveringssted.Bynavn)
+        </dt>
+        <dd style="color:white" class="col-sm-10">
+            @Html.DisplayFor(model => model.NewAllUdleveringssted.Bynavn)
+        </dd>
+        <dt style="color:white" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NewAllUdleveringssted.Person)
+        </dt>
+        <dd style="color:white" class="col-sm-10">
+            @Html.DisplayFor(model => model.NewAllUdleveringssted.Person)
+        </dd>
+        <dt style="color:white" class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.NewAllUdleveringssted.Tlf)
+                </dt>
+        <dd style="color:white" class="col-sm-10">
+            @Html.DisplayFor(model => model.NewAllUdleveringssted.Tlf)
+        </dd>
+        <dt style="color:white" class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.NewAllUdleveringssted.Mail)
+                </dt>
+        <dd style="color:white" class="col-sm-10">
+            @Html.DisplayFor(model => model.NewAllUdleveringssted.Mail)
+        </dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="NewAllUdleveringssted.Id" />
+        <input type="submit" value="Slet" class="btn btn-danger" />
+        @*<a style="color:white" asp-page="./ViewAll">Tilbage til liste</a>*@
+        <a class="btn btn-primary" href="/ViewAll">Afbryd</a>
+    </form>
+</div>

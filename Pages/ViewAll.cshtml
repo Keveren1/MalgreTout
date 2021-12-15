@@ -185,13 +185,15 @@
                 </td>
                 <td>
                     <a asp-page="./Update" asp-route-id="@item.Id" class="btn btn-primary">Ændre</a> |
-                    <a asp-page="./ViewAll" onclick="return confirm
+                    @*<a asp-page="./ViewAll" onclick="return confirm
                         ('Er du sikker på at du gerne vil slette?');"
-                       asp-page-handler="Delete" asp-route-id="@item.Id" class="btn btn-danger">Slet</a>
+                       asp-page-handler="Delete" asp-route-id="@item.Id" class="btn btn-danger">Slet</a>*@
+                    
+                    <a asp-page="Delete" asp-route-id="@item.Id" class="btn btn-danger">Slet</a>
                 </td>
-            </tr>
-        }
-
+        </tr>
+    }
+    
     </tbody>
 </table>
 

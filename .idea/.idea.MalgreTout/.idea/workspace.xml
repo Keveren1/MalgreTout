@@ -8,7 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="" />
+    <list default="true" id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Delete.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Delete.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Test.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Test.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21yGXnbcyYsVSNKHjsMbOqbSSJO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -92,6 +100,7 @@
       <workItem from="1639092948007" duration="192000" />
       <workItem from="1639170927088" duration="235000" />
       <workItem from="1639171553987" duration="1813000" />
+      <workItem from="1639520246029" duration="939000" />
     </task>
     <task id="LOCAL-00001" summary="Masse ændringer">
       <created>1639171680981</created>
@@ -107,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639173361656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lavet ny slet metode + html side">
+      <created>1639519964993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639519964993</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +147,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Masse ændringer" />
     <MESSAGE value="Samlet alting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Samlet alting" />
+    <MESSAGE value="Lavet ny slet metode + html side" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lavet ny slet metode + html side" />
   </component>
 </project>
