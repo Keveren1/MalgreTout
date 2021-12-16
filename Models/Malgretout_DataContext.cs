@@ -20,6 +20,7 @@ namespace MalgreTout.Models
             }
         }                             
 
+        //Denne bruges til Azure portal database (denne kører ikke på nuværende tidspunkt) 
         /*optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=MalgreTout;Integrated Security=False;Trust Server Certificate=True;Command Timeout=30");
         optionsBuilder.UseSqlServer("Data Source=malgretoutnew.database.windows.net; Initial Catalog=MalgreTout;User ID=Malthe;Password=Zealand123; Integrated Security=False;Persist Security Info=False;");*/
         protected override void OnModelCreating(ModelBuilder modelBuilder)
