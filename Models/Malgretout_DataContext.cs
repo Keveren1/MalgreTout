@@ -16,7 +16,7 @@ namespace MalgreTout.Models
         {
             if (!optionsBuilder.IsConfigured) {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB;Initial Catalog = MaigreTout; Integrated Security=False;Persist Security Info=False;");
+                optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB;Initial Catalog = MalgreTout; Integrated Security=False;Persist Security Info=False;");
             }
         }                             
 

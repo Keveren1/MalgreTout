@@ -9,10 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Delete.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Delete.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Test.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Test.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Malgretout_DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Malgretout_DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Test.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Test.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/ViewAll.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ViewAll.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/ViewAll.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ViewAll.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLQuery1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQLQuery1.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +106,7 @@
       <workItem from="1639170927088" duration="235000" />
       <workItem from="1639171553987" duration="1813000" />
       <workItem from="1639520246029" duration="939000" />
+      <workItem from="1639652485137" duration="462000" />
     </task>
     <task id="LOCAL-00001" summary="Masse ændringer">
       <created>1639171680981</created>

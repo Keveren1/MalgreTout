@@ -137,24 +137,6 @@ namespace MalgreTout.Pages
         }
 
 
-
-        //Delete metode
-        /*public ActionResult OnGetDelete(int? id)
-        {
-            if (id != null)
-            {
-                var data = (from newAllUdleveringssted in _Context.NewAllUdleveringssted
-                            where newAllUdleveringssted.Id == id
-                            select newAllUdleveringssted).SingleOrDefault();
-                _Context.Remove(data);
-                _Context.SaveChanges();
-            }
-            
-
-            return RedirectToPage("ViewAll");
-        }*/
-        
-        
         
         //Export til Excel metode
         public FileResult OnPostExport()
