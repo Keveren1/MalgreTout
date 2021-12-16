@@ -8,9 +8,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="">
+    <list default="true" id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="d">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQLQuery1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/OpretDatabaseScript.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/ViewAll.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ViewAll.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Models/Malgretout_DataContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,6 +112,7 @@
       <workItem from="1639171553987" duration="1813000" />
       <workItem from="1639520246029" duration="939000" />
       <workItem from="1639652485137" duration="865000" />
+      <workItem from="1639653481273" duration="2340000" />
     </task>
     <task id="LOCAL-00001" summary="Masse ændringer">
       <created>1639171680981</created>
@@ -132,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639653098930</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="d">
+      <created>1639653551718</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639653551718</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +175,7 @@
     <MESSAGE value="Samlet alting" />
     <MESSAGE value="Lavet ny slet metode + html side" />
     <MESSAGE value="Ryddet op i koden" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ryddet op i koden" />
+    <MESSAGE value="d" />
+    <option name="LAST_COMMIT_MESSAGE" value="d" />
   </component>
 </project>
