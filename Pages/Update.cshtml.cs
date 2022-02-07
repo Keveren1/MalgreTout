@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using DocumentFormat.OpenXml.Spreadsheet;
 using MalgreTout.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
@@ -18,8 +19,8 @@ namespace MalgreTout.Pages
         {
             _Context = Malgretout_databaseContext;
         }
-        
-        
+
+
         
         [BindProperty]
         public NewAllUdleveringssted NewAllUdleveringssted { get; set; }

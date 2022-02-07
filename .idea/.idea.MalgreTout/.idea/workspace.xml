@@ -8,7 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="" />
+    <list default="true" id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MalgreTout.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MalgreTout.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Update.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Update.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/ViewAll.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ViewAll.cshtml.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +29,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Models/Malgretout_DataContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/malth/Documents/GitHub/MalgreTout/Pages/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -110,6 +111,9 @@
       <workItem from="1639520246029" duration="939000" />
       <workItem from="1639652485137" duration="865000" />
       <workItem from="1639653481273" duration="2598000" />
+      <workItem from="1641547979697" duration="8929000" />
+      <workItem from="1641716626913" duration="5799000" />
+      <workItem from="1643148423496" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="Masse ændringer">
       <created>1639171680981</created>

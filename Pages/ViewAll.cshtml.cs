@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.IO;
 using System.Data;
-using System.Linq;
 using ClosedXML.Excel;
 using Microsoft.EntityFrameworkCore;
 
@@ -39,7 +38,7 @@ namespace MalgreTout.Pages
         
         public string CurrentFilter { get; set; }
         
-        public IList<NewAllUdleveringssted> NewAllUdleveringssted { get; set; }
+        public List<NewAllUdleveringssted> NewAllUdleveringssted { get; set; }
         
         [BindProperty]
         public NewAllUdleveringssted NewAllUdleveringssteds { get; set; }
@@ -61,7 +60,8 @@ namespace MalgreTout.Pages
             IQueryable<NewAllUdleveringssted> newAllUdleveringsstedIQ = from s in _Context.NewAllUdleveringssted
                 select s;
             
-            if (!string.IsNullOrEmpty(searchString)) {
+            if (!string.IsNullOrEmpty(searchString)) 
+            {
                 newAllUdleveringsstedIQ = newAllUdleveringsstedIQ.Where(s => s.Virksomhed.Contains(searchString)|| s.Adresse.Contains(searchString) 
                     || s.Bynavn.Contains(searchString) || s.Person.Contains(searchString) || s.Mail.Contains(searchString));
             }
