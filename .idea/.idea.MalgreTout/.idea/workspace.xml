@@ -8,12 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MalgreTout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MalgreTout.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MalgreTout.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Update.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Update.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ViewAll.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ViewAll.cshtml.cs" afterDir="false" />
-    </list>
+    <list default="true" id="78b2004a-3850-443d-a280-d3d0dba9d660" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,6 +109,7 @@
       <workItem from="1641547979697" duration="8929000" />
       <workItem from="1641716626913" duration="5799000" />
       <workItem from="1643148423496" duration="50000" />
+      <workItem from="1644241510384" duration="675000" />
     </task>
     <task id="LOCAL-00001" summary="Masse ændringer">
       <created>1639171680981</created>
